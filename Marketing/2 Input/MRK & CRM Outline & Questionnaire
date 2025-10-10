@@ -1,0 +1,248 @@
+Marketing - Lead Acquisition Discovery Outline 
+1.	Overview of NetSuite / Orion Functionality 
+a.	Email Marketing Capabilities  
+i.	Bulk email campaigns with personalization 
+ii.	Email templates with CRMSDK merge tags 
+iii.	Automated email sequences and drip campaigns 
+iv.	Email deliverability tracking and bounce management 
+b.	Lead Capture & Management  
+i.	Web-to-lead forms with customizable fields 
+ii.	Multiple lead sources tracking (website, events, referrals) 
+iii.	Automatic lead assignment and routing rules 
+iv.	Lead scoring and qualification workflows 
+c.	Campaign Management  
+i.	Multi-channel campaign orchestration 
+ii.	Campaign event tracking and ROI measurement 
+iii.	Showroom event management and registration 
+iv.	Campaign response tracking and analytics 
+d.	Segmentation & Targeting  
+i.	Dynamic and static group creation 
+ii.	Customer segmentation based on demographics and behavior 
+iii.	Territory-based lead assignment 
+iv.	Subscription management and opt-in/opt-out handling 
+e.	Duplicate Management  
+i.	Automated duplicate detection across leads and contacts 
+ii.	Merge capabilities with data preservation 
+f.	Reporting & Analytics  
+i.	Real-time marketing dashboards and KPIs 
+ii.	Campaign ROI analysis and attribution 
+iii.	Lead source performance tracking 
+iv.	Conversion funnel reporting from lead to customer 
+g.	Process Map: Lead Acquisition Flow - Web Form → Lead Creation → Qualification → Assignment → Nurturing → Handoff to Sales 
+2.	Analysis Framework 
+a.	Current State Assessment 
+i.	How do you currently generate and capture leads? 
+ii.	What marketing tools and platforms are you using today? 
+iii.	How do you manage email marketing campaigns? 
+iv.	What is your current lead qualification process? 
+v.	Who makes up your marketing team and what are their roles? 
+vi.	What are your biggest challenges with lead acquisition? 
+vii.	How do you currently track marketing performance and ROI? 
+b.	Objectives & Strategy 
+i.	What is your overall marketing strategy and lead generation goals? 
+ii.	What types of campaigns do you run (frequency, seasonality)? 
+iii.	Who are your target markets and buyer personas? 
+iv.	What are your key marketing KPIs and success metrics? 
+v.	How critical is lead acquisition to your business growth? 
+vi.	What marketing channels are most important to your strategy? 
+vii.	What lead volume and quality targets do you have? 
+c.	Functional Requirements 
+i.	What specific lead capture methods do you need? 
+ii.	What information must be collected from prospects? 
+iii.	What email marketing capabilities are required? 
+iv.	How should leads be qualified and scored? 
+v.	What campaign types do you need to execute? 
+vi.	When and how should leads be assigned to sales reps? 
+vii.	What approval processes are needed for campaigns? 
+viii.	What segmentation and targeting capabilities do you require? 
+d.	Technical Requirements 
+i.	What systems need to integrate with your marketing platform? 
+ii.	What data migration is needed from current marketing tools? 
+iii.	What are your email volume and deliverability requirements? 
+iv.	How should marketing data flow to sales and other systems? 
+v.	What compliance requirements must be met (CAN-SPAM, GDPR)? 
+vi.	What API integrations are needed with external tools? 
+vii.	What performance and scalability needs do you have? 
+3.	Implementation Alignment 
+a.	Client Requirement Description 
+b.	NetSuite / Orion Functionality 
+4.	Process Variations and Additional Requirements:  
+a.	Adapt or Accommodate Decision:  
+i.	Adapt: Use standard NetSuite/Orion marketing processes 
+ii.	Accommodate: Customize workflows for specific business needs 
+b.	Decision Rationale: Document chosen approach and business justification 
+c.	Solution Designs 
+d.	Implementation Considerations 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CRM - Customer Relationship Management Discovery Outline 
+1. Overview of NetSuite / Orion Functionality 
+a. Lead Management 
+•	i. Sales organization structure definition and hierarchy 
+•	ii. Lead capture and creation from multiple sources 
+•	iii. Quick Add Lead form for rapid data entry 
+•	iv. Lead routing and assignment rules automation 
+•	v. Lead status progression and follow-up processes 
+•	vi. Lead qualification and scoring workflows 
+b. Contact & Relationship Management 
+•	i. Contact management and relationship tracking 
+•	ii. Influencer and partner relationship management 
+•	iii. Customer hierarchy and sub-customer structures 
+•	iv. Customer numbering and auto-generation 
+•	v. Customer status management and progression 
+•	vi. Entity relationship mapping and visualization 
+•	 
+c. Opportunity Management 
+•	i. Complete opportunity lifecycle from lead to close 
+•	ii. Opportunity status tracking and stage progression 
+•	iii. Weighted pipeline calculations and probability management 
+•	iv. Deal size and close date forecasting 
+•	v. Opportunity linking to quotes, sales orders, and projects 
+•	vi. Win/loss analysis and competitive tracking 
+•	vii. Quick Add Opportunity form for rapid creation 
+•	viii. GL segment assignment to opportunities 
+d. Activity Management 
+•	i. Email tracking and correspondence logging 
+•	ii. Phone call logging and follow-up scheduling 
+•	iii. Task creation and assignment with due dates 
+•	iv. Event scheduling and calendar integration 
+•	v. Activity automation and workflow triggers 
+•	vi. Activity reporting and performance tracking 
+e. CRM Core Functions 
+•	i. Duplicate detection and management with fuzzy logic 
+•	ii. Messages and email correspondence tracking 
+•	iii. Email templates with CRMSDK merge tags 
+•	iv. Bulk merge functionality for mass communications 
+•	v. Data validation and cleansing tools 
+•	vi. Record merging and data preservation 
+f. Forecast/Pipeline Management 
+•	i. Real-time sales pipeline visibility 
+•	ii. Weighted forecast calculations by probability 
+•	iii. Sales rep and manager forecast overrides 
+•	iv. Pipeline analysis by territory, product, and time period 
+•	v. Quota tracking and attainment reporting 
+•	vi. Forecast accuracy analysis and trending 
+g. Sales Management 
+•	i. Individual and team quota setting and management 
+•	ii. Sales goal tracking and performance dashboards 
+•	iii. Territory and account assignment 
+•	iv. Sales team hierarchy and reporting structure 
+•	v. Commission splitting for team-based opportunities 
+•	vi. Performance analytics and coaching insights 
+•	vii. Sales rep and manager forecasting tools 
+h. Gross Profit Calculations 
+•	i. Real-time GP calculations on opportunities 
+•	ii. Margin analysis and profitability tracking 
+•	iii. Cost tracking integration with project records 
+•	iv. GP reporting by opportunity, rep, and territory 
+•	v. Margin erosion alerts and monitoring 
+i. Visual Management & Boards 
+•	i. Orion Kanban Boards (Opportunity Cards) 
+•	ii. Visual opportunity management with drag-and-drop 
+•	iii. Customizable board columns by opportunity status 
+•	iv. Quick view cards with key opportunity data 
+•	v. KPI tracking and weighted pipeline metrics 
+•	vi. Team collaboration and opportunity assignment 
+•	vii. Mobile-responsive opportunity visualization 
+j. Mobile & Portal Access 
+•	i. CRM Mobile app functionality 
+•	ii. Customer Portal access and features 
+•	iii. Mobile opportunity and activity management 
+•	iv. Real-time data synchronization 
+•	v. Offline capability and data sync 
+k. Integration Capabilities 
+•	i. Outlook calendar synchronization and meeting scheduling 
+•	ii. Email integration with NetSuite activity tracking 
+•	iii. Create contacts and customers directly from Outlook 
+•	iv. Opportunity and activity creation from email threads 
+•	v. Two-way contact and calendar synchronization 
+•	vi. SharePoint document management integration 
+•	vii. File sharing and collaboration capabilities 
+•	viii. Version control and document tracking 
+l. Process Map 
+•	CRM Flow: Lead → Contact → Opportunity → Activity → Quote → Sales Order → Project → Commission 
+2. Analysis Framework 
+a. Current State Assessment 
+•	i. How do you currently manage your sales organization structure? 
+•	ii. What CRM or sales management tools are you using today? 
+•	iii. How do you currently capture and manage leads? 
+•	iv. What is your current contact and customer management process? 
+•	v. How do you manage sales opportunities and track progress? 
+•	vi. How do you track sales activities and follow-ups? 
+•	vii. What is your current sales forecasting process? 
+•	viii. Who makes up your sales team and what are their roles? 
+•	ix. How do you currently calculate and track gross profit on deals? 
+•	x. What are your biggest challenges with customer relationship management? 
+•	xi. How do you currently track sales performance and quotas? 
+•	xii. What duplicate management and data quality issues do you face? 
+b. Objectives & Strategy 
+•	i. What are your overall CRM strategy and customer management goals? 
+•	ii. What are your sales strategy and revenue goals? 
+•	iii. How do you define and measure sales success? 
+•	iv. What are your key CRM and sales KPIs and performance metrics? 
+•	v. How critical is opportunity visibility to your business growth? 
+•	vi. What sales processes are most important to standardize? 
+•	vii. How do you want to track and improve sales team performance? 
+•	viii. What are your sales forecasting accuracy goals? 
+•	ix. What customer relationship improvements are you seeking? 
+c. Functional Requirements 
+•	i. What lead management and qualification processes do you need? 
+•	ii. What contact and customer information must be tracked? 
+•	iii. What opportunity information must be tracked and reported? 
+•	iv. How should opportunities progress through your sales stages? 
+•	v. What activity tracking and follow-up capabilities do you need? 
+•	vi. How should sales forecasting and pipeline reporting work? 
+•	vii. What gross profit calculations and margin tracking is required? 
+•	viii. How should sales territories and team assignments be managed? 
+•	ix. What approval processes are needed for CRM management? 
+•	x. What commission splitting and team management features do you need? 
+•	xi. What duplicate detection and data management capabilities are required? 
+•	xii. What mobile and portal access requirements exist? 
+d. Technical Requirements 
+•	i. What systems need to integrate with your CRM platform? 
+•	ii. What data migration is needed from current CRM tools? 
+•	iii. How should CRM data flow to other business systems? 
+•	iv. What mobile access requirements do your sales reps have? 
+•	v. What reporting and dashboard integration is needed? 
+•	vi. What API integrations are required with external sales tools? 
+•	vii. What security and access control requirements exist? 
+•	viii. What Outlook and email integration capabilities are needed? 
+•	ix. What document management and SharePoint integration is required? 
+3. Implementation Alignment 
+•	a. Client Requirement Description 
+•	b. NetSuite / Orion Functionality 
+4. Process Variations and Additional Requirements 
+•	a. Adapt or Accommodate Decision:  
+o	i. Adapt: Use standard NetSuite/Orion CRM processes 
+o	ii. Accommodate: Customize workflows for specific sales needs 
+•	b. Decision Rationale: Document chosen approach and business justification 
+•	c. Solution Designs 
+•	d. Implementation Considerations 

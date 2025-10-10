@@ -1,0 +1,29 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Office temporary files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Large media files (optional - uncomment if needed)
+# *.mp4
+# *.avi
+# *.mov
+
+# Sensitive data files (adjust as needed)
+# **/2 Input/*.xlsx
+# **/2 Input/*.docx
+
