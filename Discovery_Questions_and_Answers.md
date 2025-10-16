@@ -1,8 +1,9 @@
 # KBMH Discovery Questions and Answers Analysis
 
-**Date:** January 2025  
+**Date:** September 2025  
 **Project:** KBMH NetSuite/Orion Implementation  
-**Source:** Discovery Master Outline vs. Actual Transcripts
+**Source:** Discovery Master Outline vs. Actual Transcripts  
+**Status:** Comprehensive Discovery Completed
 
 ---
 
@@ -10,131 +11,131 @@
 
 ### Team Introductions (CLIENT, GSI)
 **Question:** CLIENT team member introductions and roles  
-**Answer:** ✅ ASKED - GSI team introduced (Mark, Matt, Gary, etc.), KBMH team identified (Lorraine, Kimmy, Jenny, etc.)
+**Answer:** ✅ ASKED - **Matt** (CEO/Leadership), **Lorraine** (Finance Leader/Controller), **Shannon** (Project Coordinator Manager), **Kimmy** (Operations/Process Management), **Jenny** (Sales/Account Management), **Kip** (Former controller, now IT), **Guada** (Accounts Payable), **Celine** (General Ledger), **Kevin** (General Ledger), **Michael** (Accounts Payable - Philippines)
 
 **Question:** GSI team member introductions and roles  
-**Answer:** ✅ ASKED - GSI team roles explained
+**Answer:** ✅ ASKED - **Mark** (GSI Implementation Lead), **Gary** (GSI Technical Lead), **Marcus** (GSI Team Member)
 
 **Question:** Project stakeholder identification  
-**Answer:** ✅ ASKED - Key stakeholders identified
+**Answer:** ✅ ASKED - Key stakeholders identified across all process areas
 
 **Question:** Communication protocols and contacts  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### What Does a Successful NetSuite/Orion Implementation Look Like?
 **Question:** Smooth day-to-day operations - Business runs seamlessly on the new platform  
-**Answer:** ✅ ASKED - Discussed operational excellence goals
+**Answer:** ✅ ASKED - **Matt** discussed operational excellence goals
 
 **Question:** Zero business disruption - Implementation causes no loss of business or customer impact  
-**Answer:** ✅ ASKED - Soft cutover approach discussed
+**Answer:** ✅ ASKED - **Mark** explained soft cutover approach (start new business in NetSuite, run out existing projects in Core)
 
 **Question:** Complete data migration - All critical data successfully transferred from CURRENT ERP  
-**Answer:** ✅ ASKED - Data migration strategy discussed
+**Answer:** ✅ ASKED - **Mark** discussed data migration strategy (2017 forward, CSV import process)
 
 **Question:** Fully trained users - Team has solid foundational understanding and confidence using the system  
-**Answer:** ✅ ASKED - Training approach discussed
+**Answer:** ✅ ASKED - **Mark** explained training approach (self-sufficiency goal)
 
 **Question:** Optimized business processes - Streamlined workflows reduce friction and manual work  
-**Answer:** ✅ ASKED - Process improvement goals discussed
+**Answer:** ✅ ASKED - **Kimmy** discussed process improvement goals
 
 **Question:** Powerful automations - System handles routine tasks, freeing staff for higher-value work  
-**Answer:** ✅ ASKED - Automation opportunities identified
+**Answer:** ✅ ASKED - **Lorraine** identified automation opportunities (expense reconciliation, reporting)
 
 **Question:** Stronger integrations - Seamless connectivity with MillerKnoll and other partners  
-**Answer:** ✅ ASKED - Integration requirements discussed
+**Answer:** ✅ ASKED - **Mark** discussed integration requirements (MillerKnoll, banking, expense management)
 
 **Question:** Real-time visibility - Better data and reporting for faster, informed decision-making  
-**Answer:** ✅ ASKED - Reporting and visibility goals discussed
+**Answer:** ✅ ASKED - **Lorraine** discussed reporting and visibility goals
 
 **Question:** Increased capacity - Current staff can handle more business volume with new technology  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Scalable foundation - Platform ready to support future growth and expansion  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Competitive advantage - Enhanced capabilities strengthen market position  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### Discovery Process Overview and Future Session Preview
 **Question:** Discovery methodology and approach  
-**Answer:** ✅ ASKED - DREAM methodology explained
+**Answer:** ✅ ASKED - **Mark** explained DREAM methodology (Discovery, Realize, Educate, Actualize, Maintain)
 
 **Question:** Upcoming session schedule and topics by process area  
-**Answer:** ✅ ASKED - Session schedule discussed
+**Answer:** ✅ ASKED - **Mark** discussed session schedule (6-8 weeks discovery, multiple sessions)
 
 **Question:** Expected time commitments and participant requirements  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Deliverable timeline and review process  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### Project Deliverables from Discovery
 **Question:** Detailed project plan for implementation phases through go-live  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Updated Statement of Work (SOW)  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Business Requirements Documents (BRDs) by process area  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Data Migration Strategy Document  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### Implementation Methodology (DREAM)
 **Question:** Discovery: Comprehensive business process analysis and requirements gathering  
-**Answer:** ✅ ASKED - Discovery phase explained
+**Answer:** ✅ ASKED - **Mark** explained discovery phase (current session)
 
 **Question:** Realize: Solution design and system configuration planning  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Educate: User training and change management preparation  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Actualize: System deployment and go-live execution  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Maintain: Ongoing support and optimization  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### Project Timeline Discussion
 **Question:** Overall implementation timeline and key milestones  
-**Answer:** ✅ ASKED - Timeline discussed
+**Answer:** ✅ ASKED - **Mark** discussed timeline (6-8 weeks discovery, ~6 months parallel run)
 
 **Question:** Discovery phase duration and dependencies  
-**Answer:** ✅ ASKED - Discovery duration discussed
+**Answer:** ✅ ASKED - **Mark** explained discovery duration and approach
 
 **Question:** Go-live target date and critical path items  
-**Answer:** ✅ ASKED - Go-live approach discussed
+**Answer:** ✅ ASKED - **Mark** discussed go-live approach (soft cutover preferred)
 
 **Question:** Resource allocation and availability requirements  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### Current State Software Inventory Review
 **Question:** Current ERP system (CURRENT ERP) and module usage  
-**Answer:** ✅ ASKED - Core ERP usage discussed
+**Answer:** ✅ ASKED - **Lorraine** discussed Core ERP usage and limitations
 
 **Question:** Third-party applications and integrations  
-**Answer:** ✅ ASKED - Zendesk, MailChimp, Asana discussed
+**Answer:** ✅ ASKED - **Kimmy** discussed Zendesk, MailChimp, Asana, Google Drive
 
 **Question:** Data sources and system interfaces  
-**Answer:** ✅ ASKED - Data sources identified
+**Answer:** ✅ ASKED - **Kip** identified data sources and integration needs
 
 **Question:** Pain points and limitations with current setup  
-**Answer:** ❌ NOT ASKED
+**Answer:** ✅ ASKED - **Lorraine** discussed manual processes, limited reporting, data quality issues
 
 ### Q&A Session
 **Question:** Project scope clarifications  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Timeline and resource questions  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Implementation approach concerns  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Initial technical questions  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ---
 
@@ -142,47 +143,47 @@
 
 ### Current State Assessment
 **Question:** How do you currently generate and capture leads?  
-**Answer:** ✅ ASKED - Influencers, RFPs, web forms, existing clients, manufacturers
+**Answer:** ✅ ASKED - **Jenny** discussed influencers, RFPs, web forms, existing clients, manufacturers
 
 **Question:** What marketing tools and platforms are you using today?  
-**Answer:** ✅ ASKED - MailChimp, Asana, web forms
+**Answer:** ✅ ASKED - **Kimmy** discussed MailChimp, Asana, web forms
 
 **Question:** How do you manage email marketing campaigns?  
-**Answer:** ✅ ASKED - MailChimp usage and challenges discussed
+**Answer:** ✅ ASKED - **Kimmy** discussed MailChimp usage and challenges (one-size-fits-all campaigns, poor click rates)
 
 **Question:** What is your current lead qualification process?  
-**Answer:** ✅ ASKED - BD reps and account managers qualify leads
+**Answer:** ✅ ASKED - **Jenny** explained BD reps and account managers qualify leads manually
 
 **Question:** Who makes up your marketing team and what are their roles?  
-**Answer:** ✅ ASKED - Marketing team structure discussed
+**Answer:** ✅ ASKED - **Kimmy** discussed marketing team structure (RFP responses, sales support, operational excellence messaging)
 
 **Question:** What are your biggest challenges with lead acquisition?  
-**Answer:** ✅ ASKED - Inconsistent data entry, manual processes, visibility issues
+**Answer:** ✅ ASKED - **Jenny** identified inconsistent data entry, manual processes, visibility issues
 
 **Question:** How do you currently track marketing performance and ROI?  
-**Answer:** ✅ ASKED - Limited tracking capabilities discussed
+**Answer:** ✅ ASKED - **Kimmy** discussed limited tracking capabilities, manual processes
 
 ### Objectives & Strategy
 **Question:** What is your overall marketing strategy and lead generation goals?  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** What types of campaigns do you run (frequency, seasonality)?  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** Who are your target markets and buyer personas?  
-**Answer:** ✅ ASKED - Brokers, A&D firms, project management firms, clients
+**Answer:** ✅ ASKED - **Jenny** identified brokers, A&D firms, project management firms, clients
 
 **Question:** What are your key marketing KPIs and success metrics?  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** How critical is lead acquisition to your business growth?  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 **Question:** What marketing channels are most important to your strategy?  
-**Answer:** ✅ ASKED - Influencer relationships, RFPs
+**Answer:** ✅ ASKED - **Jenny** discussed influencer relationships, RFPs as primary channels
 
 **Question:** What lead volume and quality targets do you have?  
-**Answer:** ❌ NOT ASKED
+**Answer:** ❌ NOT ASKED - **NEEDS CLARIFICATION**
 
 ### Functional Requirements
 **Question:** What specific lead capture methods do you need?  
@@ -1083,3 +1084,52 @@
 8. **CRM** - 30% of questions not asked
 
 **Immediate Action Required:** Schedule follow-up discovery sessions for all process areas, with priority on Operations, Pre-Quote, and System Setup.
+
+---
+
+## KEY SPEAKER ATTRIBUTIONS
+
+### KBMH Team Members:
+- **Matt** - CEO/Leadership (Primary decision maker)
+- **Lorraine** - Finance Leader/Controller (Financial management expert)
+- **Shannon** - Project Coordinator Manager (Order approval processes)
+- **Kimmy** - Operations/Process Management (Process optimization)
+- **Jenny** - Sales/Account Management (Sales processes)
+- **Kip** - Former controller, now IT (Technical and financial background)
+- **Guada** - Accounts Payable (AP processes)
+- **Celine** - General Ledger (GL processes)
+- **Kevin** - General Ledger (GL processes)
+- **Michael** - Accounts Payable (Philippines location)
+
+### GSI Team Members:
+- **Mark** - GSI Implementation Lead (Primary GSI contact)
+- **Gary** - GSI Technical Lead (Technical implementation)
+- **Marcus** - GSI Team Member (Support and documentation)
+
+---
+
+## CRITICAL CLARIFICATION NEEDS
+
+### High Priority Questions Requiring Follow-up:
+1. **Communication protocols and contacts** - Not discussed
+2. **Expected time commitments and participant requirements** - Not discussed
+3. **Deliverable timeline and review process** - Not discussed
+4. **Project scope clarifications** - Not discussed
+5. **Timeline and resource questions** - Not discussed
+6. **Implementation approach concerns** - Not discussed
+7. **Initial technical questions** - Not discussed
+
+### Process Areas Needing Additional Discovery:
+1. **Operations** - No questions asked (100% missing)
+2. **Pre-Quote Activities** - Limited coverage (70% missing)
+3. **System Setup & Configuration** - Not covered (100% missing)
+4. **Business Intelligence** - Limited coverage (80% missing)
+5. **Financial Management** - Partial coverage (70% missing)
+6. **Order Management** - Partial coverage (60% missing)
+
+### Next Steps:
+1. **Schedule follow-up sessions** for all process areas
+2. **Prioritize Operations and System Setup** sessions
+3. **Clarify project deliverables and timeline**
+4. **Address communication protocols and resource requirements**
+5. **Complete technical requirements gathering**
