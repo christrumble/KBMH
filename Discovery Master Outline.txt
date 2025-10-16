@@ -1,0 +1,1273 @@
+Discovery Kickoff & Foundation Setup
+Session Duration: 2 Hours
+1. Team Introductions (CLIENT, GSI) 
+*	CLIENT team member introductions and roles
+*	GSI team member introductions and roles
+*	Project stakeholder identification
+*	Communication protocols and contacts
+2. What Does a Successful NetSuite/Orion Implementation Look Like? Operational Excellence
+*	Smooth day-to-day operations - Business runs seamlessly on the new platform
+*	Zero business disruption - Implementation causes no loss of business or customer impact
+*	Complete data migration - All critical data successfully transferred from CURRENT ERP
+*	Fully trained users - Team has solid foundational understanding and confidence using the system
+Enhanced Efficiency & Productivity
+*	Optimized business processes - Streamlined workflows reduce friction and manual work
+*	Powerful automations - System handles routine tasks, freeing staff for higher-value work
+*	Stronger integrations - Seamless connectivity with MillerKnoll and other partners
+*	Real-time visibility - Better data and reporting for faster, informed decision-making
+Business Growth Enablement
+*	Increased capacity - Current staff can handle more business volume with new technology
+*	Scalable foundation - Platform ready to support future growth and expansion
+*	Competitive advantage - Enhanced capabilities strengthen market position
+Our Commitment: CLIENT doesn't just go live - CLIENT thrives on NetSuite/Orion
+3. Discovery Process Overview and Future Session Preview 
+*	Discovery methodology and approach
+*	Upcoming session schedule and topics by process area
+*	Expected time commitments and participant requirements
+*	Deliverable timeline and review process
+Project Deliverables from Discovery:
+*	Detailed project plan for implementation phases through go-live
+*	Updated Statement of Work (SOW)
+*	Business Requirements Documents (BRDs) by process area
+*	Data Migration Strategy Document
+
+4. Implementation Methodology (DREAM) 
+*	Discovery: Comprehensive business process analysis and requirements gathering
+*	Realize: Solution design and system configuration planning
+*	Educate: User training and change management preparation
+*	Actualize: System deployment and go-live execution
+*	Maintain: Ongoing support and optimization
+5. Project Timeline Discussion - 15 minutes
+*	Overall implementation timeline and key milestones
+*	Discovery phase duration and dependencies
+*	Go-live target date and critical path items
+*	Resource allocation and availability requirements
+6. Current State Software Inventory Review - 20 minutes
+*	Current ERP system (CURRENT ERP) and module usage
+*	Third-party applications and integrations
+*	Data sources and system interfaces
+*	Pain points and limitations with current setup
+7. Q&A Session - 10 minutes
+*	Project scope clarifications
+*	Timeline and resource questions
+*	Implementation approach concerns
+*	Initial technical questions
+--- BREAK (5 minutes) ---
+8. Overview of NetSuite / Orion Pre-Configuration
+a. Company Structure & Subsidiaries
+*	i. Subsidiary management and multi-entity configuration
+*	ii. Legal entity setup and reporting requirements
+*	iii. Consolidation and elimination capabilities
+*	iv. Currency and localization by subsidiary
+b. Financial Segmentation & Organizational Structure
+*	i. Department structure setup and sub-department hierarchy
+*	ii. Location/warehouse segmentation and management
+*	iii. Division management (Classes renamed)
+*	iv. Transaction-level vs. line-item level segmentation
+*	v. Segment assignment rules and employee overrides
+c. Chart of Accounts Setup
+*	ii. Parent/child account hierarchy structure
+*	iii. Account posting restrictions and controls
+*	iv. Statistical accounts for cost allocation
+*	MillerKnoll COA
+*	v. Delivered COA for client review and feedback
+d. System Preferences & Features
+*	i. NetSuite feature enablement and configuration
+*	ii. Accounting and transaction preferences
+*	iii. Auto-generated numbering sequences
+*	iv. Date, period, and currency controls
+e. Custom Segments & Orion Enhancements
+*	i. Orion vertical markets segmentation
+*	ii. Orion sales locations and vendor categories
+f. User Management & Security
+*	i. Orion Role definitions and permissions setup
+*	ii. Role-based access controls and restrictions
+*	iii. Subsidiary and department access controls
+g. Master Data Framework
+*	i. Item master data classification and setup
+*	ii. Vendor management and 1099 tracking
+*	iii. SuiteTax configuration or Avalara integration
+*	iv. 
+h. Data Migration Overview
+*	i. Data migration scope and approach from CURRENT ERP
+*	ii. Key data entities and mapping considerations
+*	iii. Migration timeline and testing approach
+*	iv. Data quality and cleansing requirements
+i. Process Map Foundation Setup Flow: Company Structure ? Chart of Accounts ? Segmentation ? User Setup 
+? Master Data ? Integration Planning
+9. Analysis Framework
+a. Current State Assessment
+*	i. What is your current legal entity and subsidiary structure?
+*	ii. How is your organization structured (departments, divisions, locations)?
+*	iii. What is your current chart of accounts structure and numbering system?
+*	iv. What ERP system are you migrating from (CURRENT ERP) and what modules are you using?  
+*	v. What are your current financial segmentation and reporting requirements?
+*	vi. Who are your key stakeholders and what are their primary system access needs?
+*	vii. What integrations and third-party systems are currently in use?
+*	viii. What are your biggest pain points with your current system setup?
+b. Objectives & Strategy
+*	i. What are your primary goals for this NetSuite implementation?
+*	ii. How do you define success for this project?
+*	iii. What business processes are most critical to get right?
+*	iv. What are your go-live timeline requirements and constraints?
+*	v. How will you measure ROI and implementation success?
+*	vi. What change management and training considerations are important?
+*	vii. What compliance and regulatory requirements must be maintained?
+c. Functional Requirements
+*	i. What organizational structure needs to be reflected in NetSuite?
+*	ii. How should financial segmentation and reporting be configured?
+*	iii. What chart of accounts modifications are needed from current structure?
+*	iv. What user roles and permissions structure is required?
+*	v. What custom fields and segments are needed for your business?
+*	vi. What reporting and dashboard requirements do you have?
+*	vii. What approval workflows and business rules must be implemented?
+d. Technical Requirements
+*	i. What data migration scope and timeline is required from CURRENT ERP?
+*	ii. What system integrations need to be maintained or established?
+*	iii. What are your security and access control requirements?
+*	iv. What performance and scalability needs do you have?
+*	v. What backup and disaster recovery requirements exist?
+*	vi. What API access and third-party connections are needed?
+*	vii. What compliance and audit trail requirements must be met?
+10. Implementation Alignment
+*	a. Client Requirement Description
+*	b. NetSuite / Orion Functionality
+11. Process Variations and Additional Requirements
+*	a. Adapt or Accommodate Decision: 
+o	i. Adapt: Use standard NetSuite/Orion configuration approach
+o	ii. Accommodate: Customize setup for specific organizational needs
+*	b. Decision Rationale: Document chosen approach and business justification
+*	c. Solution Designs
+*	d. Implementation Considerations
+
+
+
+Marketing - Lead Acquisition Discovery Outline 
+1.	Overview of NetSuite / Orion Functionality 
+a.	Email Marketing Capabilities  
+i.	Bulk email campaigns with personalization 
+ii.	Email templates with CRMSDK merge tags 
+iii.	Automated email sequences and drip campaigns 
+iv.	Email deliverability tracking and bounce management 
+b.	Lead Capture & Management  
+i.	Web-to-lead forms with customizable fields 
+ii.	Multiple lead sources tracking (website, events, referrals) 
+iii.	Automatic lead assignment and routing rules 
+iv.	Lead scoring and qualification workflows 
+c.	Campaign Management  
+i.	Multi-channel campaign orchestration 
+ii.	Campaign event tracking and ROI measurement 
+iii.	Showroom event management and registration 
+iv.	Campaign response tracking and analytics 
+d.	Segmentation & Targeting  
+i.	Dynamic and static group creation 
+ii.	Customer segmentation based on demographics and behavior 
+iii.	Territory-based lead assignment 
+iv.	Subscription management and opt-in/opt-out handling 
+e.	Duplicate Management  
+i.	Automated duplicate detection across leads and contacts 
+ii.	Merge capabilities with data preservation 
+f.	Reporting & Analytics  
+i.	Real-time marketing dashboards and KPIs 
+ii.	Campaign ROI analysis and attribution 
+iii.	Lead source performance tracking 
+iv.	Conversion funnel reporting from lead to customer 
+g.	Process Map: Lead Acquisition Flow - Web Form ? Lead Creation ? Qualification ? Assignment ? 
+Nurturing ? Handoff to Sales 
+2.	Analysis Framework 
+a.	Current State Assessment 
+i.	How do you currently generate and capture leads? 
+ii.	What marketing tools and platforms are you using today? 
+iii.	How do you manage email marketing campaigns? 
+iv.	What is your current lead qualification process? 
+v.	Who makes up your marketing team and what are their roles? 
+vi.	What are your biggest challenges with lead acquisition? 
+vii.	How do you currently track marketing performance and ROI? 
+b.	Objectives & Strategy 
+i.	What is your overall marketing strategy and lead generation goals? 
+ii.	What types of campaigns do you run (frequency, seasonality)? 
+iii.	Who are your target markets and buyer personas? 
+iv.	What are your key marketing KPIs and success metrics? 
+v.	How critical is lead acquisition to your business growth? 
+vi.	What marketing channels are most important to your strategy? 
+vii.	What lead volume and quality targets do you have? 
+c.	Functional Requirements 
+i.	What specific lead capture methods do you need? 
+ii.	What information must be collected from prospects? 
+iii.	What email marketing capabilities are required? 
+iv.	How should leads be qualified and scored? 
+v.	What campaign types do you need to execute? 
+vi.	When and how should leads be assigned to sales reps? 
+vii.	What approval processes are needed for campaigns? 
+viii.	What segmentation and targeting capabilities do you require? 
+d.	Technical Requirements 
+i.	What systems need to integrate with your marketing platform? 
+ii.	What data migration is needed from current marketing tools? 
+iii.	What are your email volume and deliverability requirements? 
+iv.	How should marketing data flow to sales and other systems? 
+v.	What compliance requirements must be met (CAN-SPAM, GDPR)? 
+vi.	What API integrations are needed with external tools? 
+vii.	What performance and scalability needs do you have? 
+3.	Implementation Alignment 
+a.	Client Requirement Description 
+b.	NetSuite / Orion Functionality 
+4.	Process Variations and Additional Requirements:  
+a.	Adapt or Accommodate Decision:  
+i.	Adapt: Use standard NetSuite/Orion marketing processes 
+ii.	Accommodate: Customize workflows for specific business needs 
+b.	Decision Rationale: Document chosen approach and business justification 
+c.	Solution Designs 
+d.	Implementation Considerations 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CRM - Customer Relationship Management Discovery Outline 
+1. Overview of NetSuite / Orion Functionality 
+a. Lead Management 
+*	i. Sales organization structure definition and hierarchy 
+*	ii. Lead capture and creation from multiple sources 
+*	iii. Quick Add Lead form for rapid data entry 
+*	iv. Lead routing and assignment rules automation 
+*	v. Lead status progression and follow-up processes 
+*	vi. Lead qualification and scoring workflows 
+b. Contact & Relationship Management 
+*	i. Contact management and relationship tracking 
+*	ii. Influencer and partner relationship management 
+*	iii. Customer hierarchy and sub-customer structures 
+*	iv. Customer numbering and auto-generation 
+*	v. Customer status management and progression 
+*	vi. Entity relationship mapping and visualization 
+*	 
+c. Opportunity Management 
+*	i. Complete opportunity lifecycle from lead to close 
+*	ii. Opportunity status tracking and stage progression 
+*	iii. Weighted pipeline calculations and probability management 
+*	iv. Deal size and close date forecasting 
+*	v. Opportunity linking to quotes, sales orders, and projects 
+*	vi. Win/loss analysis and competitive tracking 
+*	vii. Quick Add Opportunity form for rapid creation 
+*	viii. GL segment assignment to opportunities 
+d. Activity Management 
+*	i. Email tracking and correspondence logging 
+*	ii. Phone call logging and follow-up scheduling 
+*	iii. Task creation and assignment with due dates 
+*	iv. Event scheduling and calendar integration 
+*	v. Activity automation and workflow triggers 
+*	vi. Activity reporting and performance tracking 
+e. CRM Core Functions 
+*	i. Duplicate detection and management with fuzzy logic 
+*	ii. Messages and email correspondence tracking 
+*	iii. Email templates with CRMSDK merge tags 
+*	iv. Bulk merge functionality for mass communications 
+*	v. Data validation and cleansing tools 
+*	vi. Record merging and data preservation 
+f. Forecast/Pipeline Management 
+*	i. Real-time sales pipeline visibility 
+*	ii. Weighted forecast calculations by probability 
+*	iii. Sales rep and manager forecast overrides 
+*	iv. Pipeline analysis by territory, product, and time period 
+*	v. Quota tracking and attainment reporting 
+*	vi. Forecast accuracy analysis and trending 
+g. Sales Management 
+*	i. Individual and team quota setting and management 
+*	ii. Sales goal tracking and performance dashboards 
+*	iii. Territory and account assignment 
+*	iv. Sales team hierarchy and reporting structure 
+*	v. Commission splitting for team-based opportunities 
+*	vi. Performance analytics and coaching insights 
+*	vii. Sales rep and manager forecasting tools 
+h. Gross Profit Calculations 
+*	i. Real-time GP calculations on opportunities 
+*	ii. Margin analysis and profitability tracking 
+*	iii. Cost tracking integration with project records 
+*	iv. GP reporting by opportunity, rep, and territory 
+*	v. Margin erosion alerts and monitoring 
+i. Visual Management & Boards 
+*	i. Orion Kanban Boards (Opportunity Cards) 
+*	ii. Visual opportunity management with drag-and-drop 
+*	iii. Customizable board columns by opportunity status 
+*	iv. Quick view cards with key opportunity data 
+*	v. KPI tracking and weighted pipeline metrics 
+*	vi. Team collaboration and opportunity assignment 
+*	vii. Mobile-responsive opportunity visualization 
+j. Mobile & Portal Access 
+*	i. CRM Mobile app functionality 
+*	ii. Customer Portal access and features 
+*	iii. Mobile opportunity and activity management 
+*	iv. Real-time data synchronization 
+*	v. Offline capability and data sync 
+k. Integration Capabilities 
+*	i. Outlook calendar synchronization and meeting scheduling 
+*	ii. Email integration with NetSuite activity tracking 
+*	iii. Create contacts and customers directly from Outlook 
+*	iv. Opportunity and activity creation from email threads 
+*	v. Two-way contact and calendar synchronization 
+*	vi. SharePoint document management integration 
+*	vii. File sharing and collaboration capabilities 
+*	viii. Version control and document tracking 
+l. Process Map 
+*	CRM Flow: Lead ? Contact ? Opportunity ? Activity ? Quote ? Sales Order ? Project ? Commission 
+2. Analysis Framework 
+a. Current State Assessment 
+*	i. How do you currently manage your sales organization structure? 
+*	ii. What CRM or sales management tools are you using today? 
+*	iii. How do you currently capture and manage leads? 
+*	iv. What is your current contact and customer management process? 
+*	v. How do you manage sales opportunities and track progress? 
+*	vi. How do you track sales activities and follow-ups? 
+*	vii. What is your current sales forecasting process? 
+*	viii. Who makes up your sales team and what are their roles? 
+*	ix. How do you currently calculate and track gross profit on deals? 
+*	x. What are your biggest challenges with customer relationship management? 
+*	xi. How do you currently track sales performance and quotas? 
+*	xii. What duplicate management and data quality issues do you face? 
+b. Objectives & Strategy 
+*	i. What are your overall CRM strategy and customer management goals? 
+*	ii. What are your sales strategy and revenue goals? 
+*	iii. How do you define and measure sales success? 
+*	iv. What are your key CRM and sales KPIs and performance metrics? 
+*	v. How critical is opportunity visibility to your business growth? 
+*	vi. What sales processes are most important to standardize? 
+*	vii. How do you want to track and improve sales team performance? 
+*	viii. What are your sales forecasting accuracy goals? 
+*	ix. What customer relationship improvements are you seeking? 
+c. Functional Requirements 
+*	i. What lead management and qualification processes do you need? 
+*	ii. What contact and customer information must be tracked? 
+*	iii. What opportunity information must be tracked and reported? 
+*	iv. How should opportunities progress through your sales stages? 
+*	v. What activity tracking and follow-up capabilities do you need? 
+*	vi. How should sales forecasting and pipeline reporting work? 
+*	vii. What gross profit calculations and margin tracking is required? 
+*	viii. How should sales territories and team assignments be managed? 
+*	ix. What approval processes are needed for CRM management? 
+*	x. What commission splitting and team management features do you need? 
+*	xi. What duplicate detection and data management capabilities are required? 
+*	xii. What mobile and portal access requirements exist? 
+d. Technical Requirements 
+*	i. What systems need to integrate with your CRM platform? 
+*	ii. What data migration is needed from current CRM tools? 
+*	iii. How should CRM data flow to other business systems? 
+*	iv. What mobile access requirements do your sales reps have? 
+*	v. What reporting and dashboard integration is needed? 
+*	vi. What API integrations are required with external sales tools? 
+*	vii. What security and access control requirements exist? 
+*	viii. What Outlook and email integration capabilities are needed? 
+*	ix. What document management and SharePoint integration is required? 
+3. Implementation Alignment 
+*	a. Client Requirement Description 
+*	b. NetSuite / Orion Functionality 
+4. Process Variations and Additional Requirements 
+*	a. Adapt or Accommodate Decision:  
+o	i. Adapt: Use standard NetSuite/Orion CRM processes 
+o	ii. Accommodate: Customize workflows for specific sales needs 
+*	b. Decision Rationale: Document chosen approach and business justification 
+*	c. Solution Designs 
+*	d. Implementation Considerations 
+
+
+
+
+
+
+
+
+Pre-Quote Activities Discovery Outline
+1. Overview of NetSuite / Orion Functionality
+a. Request Management
+*	i. Request engine configuration and setup
+*	ii. Design request processes and workflows
+*	iii. Labor quote request processes and routing
+*	iv. Custom request type creation and management
+*	v. Request routing (internal/external) with role-based assignment
+*	vi. Request template and field management
+*	vii. Request approval workflows and notifications
+*	viii. Request status tracking and lifecycle management
+b. Requirements Management
+*	Requirement Engine for administration
+*	Job Site Analysis record for tracking requirements
+
+Project Initiation
+*	i. Project record creation and automatic generation from opportunities
+*	ii. Project Navigator tool functionality for transaction linking
+*	iii. Project definition and setup 
+*	iv. 
+*	v. 
+*	vi. 
+*	vii. 
+*	viii. 
+*	Master Project and Related Projects
+c. Design Management
+*	i. Orion Kanban Boards (Design Board) for visual workflow
+*	ii. Design request assignment and tracking
+*	iii. Designer workload and capacity management Report
+*	iv. Design Request task managent (for things like double check)
+*	v. 
+*	vi. 
+*	vii. Design  time tracking
+*	viii. 
+d Team & Assignment Management
+*	i. Order Team Management (People Assignment Utility)
+*	ii. Team management by Sales Person
+*	iii. 
+*	iv. 
+*	v. Role-based assignments and responsibilities
+*	vi. 
+*	vii. Inlfuencers
+*	Customer Contact assignment
+*	Sales Rep and team assignments
+*	Competitor tracking
+f. 
+*	i. 
+*	ii. 
+*	iii. 
+*	iv. 
+*	v. 
+*	vi. 
+*	vii. g. Financial Setup & Management
+*	i. Customer approval workflows and tracking
+*	ii. Invoice schedules and template configuration
+*	iii. 
+*	iv. 
+*	v. Payment terms configuration and management
+*	vi. 
+*	vii. 
+j. Process Map
+*	Pre-Quote Flow: Opportunity ? Request ? Design ? Labor Quote ? Project Setup ? Quote Creation ? 
+Customer Approval ? Sales Order
+2. Analysis Framework
+a. Current State Assessment
+*	i. How do you currently manage design and labor quote requests?
+*	ii. What project management tools and processes are you using today?
+*	iii. How do you track design work and designer capacity?
+*	v. How do you doing team assignments and responsibilities?
+*	ix. Who makes up your pre-quote teams (design, project management, sales)?
+*	x. What are your biggest challenges with pre-quote activities?
+*	xii. What manual processes would you like to automate?
+*	
+b. Objectives & Strategy
+*	i. What are your overall goals for pre-quote process improvement?
+*	ii. How do you define success for design and project management?
+*	iii. What are your key performance metrics for pre-quote activities?
+*	iv. How critical is design efficiency to your business growth?
+*	v. What project management standardization are you seeking?
+*	vi. 
+*	vii. 
+*	viii. 
+*	ix. What automation priorities do you have for pre-quote work?
+c. Functional Requirements
+*	i. What request types and workflows do you need to support?
+*	ii. 
+*	iii. How should design work be assigned and managed?
+*	iv. 
+*	v. How should teams be assigned and managed across projects?
+*	vi. 
+*	vii. What customer deposit and invoicing functionality is required?
+*	viii. 
+*	ix. What reporting and analytics capabilities are essential?
+*	x. What mobile and remote work capabilities are needed as related to job site analysis?
+*	xi. What approval workflows and authorization levels are required?
+*	What address information/requirements do you need to track?
+d. Technical Requirements
+*	i. What systems need to integrate with your pre-quote platform – if any?
+*	ii. What data migration is needed from current project tools?
+*	iii. 
+*	iv. What mobile access requirements do your design and project teams have?
+*	v. What reporting and dashboard is needed?
+*	vi. 
+*	vii. 
+*	viii. What file management and storage capabilities are needed?
+*	ix. 
+*	x. 
+3. Implementation Alignment
+*	a. Client Requirement Description
+*	b. NetSuite / Orion Functionality
+4. Process Variations and Additional Requirements
+*	a. Adapt or Accommodate Decision: 
+o	i. Adapt: Use standard NetSuite/Orion pre-quote processes
+o	ii. Accommodate: Customize workflows for specific business needs
+*	b. Decision Rationale: Document chosen approach and business justification
+*	c. Solution Designs
+*	d. Implementation Considerations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Order Management Discovery Outline
+1. Overview of NetSuite / Orion Functionality
+a. Customer Management
+*	iv. Customer compliance and tax configuration (Taxe exemption?)
+*	v. Customer hierarchy and relationship management
+*	Customer Finance Charges
+*	Storage Fees 
+b. Quote Management
+*	i. Quote creation and management from opportunities
+*	ii. Smart Table functionality for quotes and line editing
+*	iii. BOM Import Tool integration for rapid data entry
+*	iv. Quote line item management and editing capabilities 
+*	v. Quote approval workflows and authorization levels (Order Approval Rules)
+*	vi. Alternative billing options (3rd party, direct business, intermarket)
+*	vii. Quote PDF generation and customization
+*	Client Quote Approval
+*	Quote Deposit Process
+*	Customer PO# and Value Tracking (if applicable)
+c. Sales Order Management
+*	i. Sales order creation and processing (booking)
+*	ii. Quote to sales order conversion workflows
+*	Sales Order Budget – vs Actual
+*	iii. Sales order approval workflows and routing
+*	iv. Order type configuration (mockups, direct bill, etc)
+*	vi. Order change management and approval processes
+*	viii. Multi-order project management capabilities
+o	
+d. Address and Contact Management
+*	i. Bill To address and contact management
+*	ii. Installation address configuration and setup
+*	iii. Vendor PO ship to address setup
+*	v. Line-level ship to address management
+*	vi. Multi-location address coordination
+*	COM (customer owned material) process
+g. Deposit Management (Proforma Invoice)
+*	i. Quote deposit to sales order transfer
+*	iii. Invoice schedule application and automation
+h. Document & Communication Management
+*	i. PDF Composer functionality for Proposals
+*	iii. Quote distribution and client communication
+*	iv. Client approval interface and portal
+*	v. Approval audit trails and documentation
+i. Vendor Purchase Order Management
+*	Draft purchase order creation (splitting) and management
+*	Pre-Sold Inv. Vs Ship to Site PO’s
+*	ii. Vendor Purchase order finalization process
+*	iii. Line constitution between sales orders and purchase orders
+*	iv. Vendor prepayments management
+*	v. Purchase order transmission and communication
+vi. Purchase order approval workflows (if necessary) 
+Purchase Requisitions & Requests
+*	i. Purchase requisition management and workflows (if used)
+*	ii. Purchase request processing and approval (if used)
+*	iii. Employee purchase request workflows
+*	iv. Purchase approval processes and authorization levels
+*	v. Budget controls and spending limits
+*	
+j. Acknowledgment Processing
+*	i. Vendor acknowledgment management and tracking
+*	ii. Vendor Response Utility
+*	Acknowledgment discrepancy tracking and resolution
+*	iii. Cost verification and reconciliation
+*	iv. Pricing variance management and alerts
+*	v. Acknowledgment tolerance configuration
+*	vi. Margin erosion identification and monitoring
+k. Order Manager Integration
+*	i. Aligned Manufacturer Integration
+*	iii. Automated acknowledgment retrieval
+*	v. Vendor bill automation and creation
+*	vi. Order status monitoring and alerts
+*	vii. Draft vs. live order transmission
+2. Analysis Framework
+a. Current State Assessment
+Customer Management
+i. How do you currently manage customer records and configuration?
+*	What custom data fields are critical that standard systems don't typically capture?
+*	Do you have different customer types requiring different validation rules?
+ii. How do you handle customer deposit requirements and terms setup?
+*	Are deposit requirements standardized or customized per customer/project?
+*	How do you manage customer-specific payment terms and conditions?
+iii. What customer-specific approval requirements do you have?
+*	What triggers require customer approval in your current process?
+*	Do you have customers with pre-approved limits or credit arrangements?
+iv. How do you manage customer compliance and tax configuration?
+*	Beyond basic tax exemptions, what compliance documents do you track?
+*	How do you handle multi-state or international tax requirements?
+v. Do you have customer hierarchy and relationship management needs?
+*	Do you have parent-child customer relationships that need consolidated billing?
+*	How complex are your customer hierarchies?
+Quote Management
+vi. How do you currently manage quote creation from opportunities?
+*	What's your process for moving from opportunity to quote?
+*	Do you need to track multiple quotes per opportunity?
+vii. How do you handle complex quote line editing?
+*	Do you work with standardized BOMs that could be imported?
+*	What line-level details do you modify most frequently after initial creation?
+viii. What quote approval workflows do you currently have?
+*	What are your current approval thresholds and authorization levels?
+*	Do you need different approval workflows for different quote types?
+ix. How do you handle alternative billing options?
+*	Can you explain your different billing models (3rd party, direct business, intermarket)?
+*	What challenges do you face managing these different billing approaches?
+x. What are your quote PDF and document requirements?
+*	What specific formatting, branding, or content requirements do you have?
+*	Do you need different quote templates for different customers?
+xi. How do you manage quote versioning and revisions?
+*	How do you track quote changes and ensure everyone works from latest versions?
+*	Do you need audit trails of what changed between versions?
+Sales Order Management
+xii. How do you handle sales order creation and processing?
+*	What information needs to be captured when converting quotes to orders?
+*	What approval steps are needed before quotes become live orders?
+xiii. What order types do you process?
+*	How do different order types (mockups, direct bill, etc.) require different processing?
+*	What percentage of orders require special handling?
+xiv. How do you manage order changes and status tracking?
+*	How frequently do you modify orders after creation?
+*	What order statuses do you track and who needs visibility?
+xv. Do you have multi-order project management needs?
+*	Do you have projects spanning multiple orders that need coordination?
+*	What project-level reporting do you need across related orders?
+Address and Contact Management
+xvi. How do you manage billing addresses and contacts?
+*	Do you have customers with multiple billing addresses?
+*	How do you handle billing address changes during the order process?
+xvii. How do you handle installation and shipping addresses?
+*	How often do installation addresses differ from billing addresses?
+*	Do you have orders where different line items ship to different addresses?
+xviii. How do you coordinate vendor PO ship-to addresses?
+*	Do you frequently ship directly from vendors to customer sites?
+*	How do you communicate ship-to addresses with vendors?
+Deposit Management (Proforma Invoice)
+xix. How do you manage deposit transfers from quotes to orders?
+*	How do you track deposits from quote stage through fulfillment?
+*	Are there scenarios where deposits need to be transferred between orders?
+xx. What's your current deposit processing and application method?
+*	How do you apply deposits against final invoices?
+*	Do you have milestone-based invoicing with deposit applications?
+Document & Communication Management
+xxi. What custom document generation do you need?
+*	What custom documents do you generate beyond standard quotes and orders?
+*	Do you need dynamic document generation based on customer characteristics?
+xxii. How do you manage customer approval workflows?
+*	What documents require customer approval and how do you track status?
+*	Do you need automated reminders for pending approvals?
+xxiii. How do you handle quote distribution and client communication?
+*	How do you currently distribute quotes to customers?
+*	What communication tracking do you need around correspondence?
+xxiv. Do you need client approval interfaces or portals?
+*	Do customers have any self-service capabilities currently?
+*	What level of order visibility do customers expect?
+Vendor Purchase Order Management
+xxv. How do you handle purchase order splitting and creation?
+*	Do you frequently split orders across multiple vendors?
+*	What's your process for creating and refining POs before sending?
+xxvi. How do you manage different PO types?
+*	Can you explain Pre-Sold Inventory vs Ship-to-Site POs?
+*	What different processing is needed for each type?
+xxvii. How do you handle vendor prepayments and PO finalization?
+*	Which vendors require prepayments and how do you manage this?
+*	What steps are involved in finalizing and transmitting POs?
+xxviii. How do you link sales orders to purchase orders?
+*	How do you track which customer orders are covered by which vendor orders?
+*	Do you need visibility into line-level connections between SOs and POs?
+Acknowledgment Processing
+xxix. How do you manage vendor acknowledgments?
+*	What percentage of vendors provide acknowledgments and in what format?
+*	How do you track which POs are pending acknowledgment?
+xxx. How do you handle acknowledgment discrepancies?
+*	What's your process when vendor acknowledgments don't match your PO?
+*	How long does discrepancy resolution typically take?
+xxxi. How do you verify costs and manage pricing variances?
+*	How do you verify acknowledged costs match expected pricing?
+*	What pricing variance thresholds require attention or approval?
+xxxii. How do you monitor margin erosion from acknowledgment changes?
+*	How do you identify when acknowledgment changes impact margins?
+*	What reporting do you need when margins fall below acceptable levels?
+Order Manager Integration
+xxxiii. What manufacturer integrations do you currently have?
+*	Which manufacturers do you integrate with and what data flows between systems?
+*	What integration challenges do you face currently?
+xxxiv. Do you have automated acknowledgment retrieval?
+*	Do you receive automated acknowledgments from any vendors currently?
+*	What would ideal automated acknowledgment processing look like?
+xxxv. How do you handle vendor bill automation?
+*	How much of your vendor billing process is automated vs manual?
+*	What information do you need to automatically match vendor bills to POs?
+xxxvi. What order status monitoring do you need?
+*	What order status updates do you need from vendors and how frequently?
+*	What scenarios require immediate alerts based on order status?
+Overall Process
+xxxvii. What are your current challenges with order management?
+*	What manual processes consume the most time in your workflow?
+*	Where do you experience the most errors or rework?
+xxxviii. What manual processes need automation?
+*	What tasks do team members perform repeatedly that could be automated?
+*	Where do you see the biggest opportunity for efficiency gains?
+
+b. Objectives & Strategy
+*	i. What are your overall goals for order management improvement?
+*	ii. How do you define success for the quote-to-cash process?
+*	iii. What are your key performance metrics for order management?
+*	iv. How critical is order accuracy and efficiency to your business?
+*	v. What customer experience improvements are you seeking?
+*	vi. What cost control and margin protection goals do you have?
+*	vii. How important is vendor integration and automation?
+*	viii. What scalability requirements do you have for order volume?
+*	ix. What compliance and audit requirements must be maintained?
+c. Functional Requirements
+*	i. What quote creation and approval capabilities are required?
+*	ii. What sales order processing and management features are needed?
+*	iii. How should customer deposits and payments be handled?
+*	iv. What purchase order creation and management capabilities are required?
+*	v. How should vendor acknowledgments and discrepancies be processed?
+*	vi. What order fulfillment and shipping capabilities are needed?
+*	vii. What return and adjustment processing is required?
+*	viii. What team assignment and management features are needed?
+*	ix. What reporting and analytics capabilities are essential?
+*	x. What approval workflows and authorization levels are required?
+*	xi. What document generation and communication features are needed?
+d. Technical Requirements
+*	i. What systems need to integrate with your order management platform?
+*	ii. What data migration is needed from current order systems?
+*	iii. How should order data flow between sales, operations, and finance?
+*	iv. What mobile access requirements do your order management teams have?
+*	v. What reporting and dashboard integration is needed?
+*	vi. What API integrations are required with vendors and partners?
+*	vii. What security and access control requirements exist?
+*	viii. What performance and scalability requirements exist for order volume?
+*	ix. What backup and disaster recovery needs do you have?
+*	x. What compliance and audit trail requirements must be met?
+3. Implementation Alignment
+*	a. Client Requirement Description
+*	b. NetSuite / Orion Functionality
+4. Process Variations and Additional Requirements
+*	a. Adapt or Accommodate Decision: 
+o	i. Adapt: Use standard NetSuite/Orion order management processes
+o	ii. Accommodate: Customize workflows for specific business needs
+*	b. Decision Rationale: Document chosen approach and business justification
+*	c. Solution Designs
+*	d. Implementation Considerations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Operations Discovery Outline
+1. Overview of NetSuite / Orion Functionality
+a. 
+b. Receiving & Warehouse Management
+*	i. Dynamic receiving interface (Orion Receiving)
+*	ii. Purchase order item receipt processing
+*	iii. Bin management and assignment with drag-and-drop
+*	iv. Quantity management and validation controls
+*	vi. Component receipt management for partial shipments
+*	vii. Expected receipts calendar and scheduling
+*	viii. Receiving notes and documentation
+c. Scheduling & Resource Management
+*	i. Orion Scheduler interface and functionality
+*	ii. Resource allocation and assignment management
+*	iii. Work order event scheduling and coordination
+*	iv. Approval and unapproved pane management
+*	vi. Location-based scheduling and filtering
+*	viii. Work order type and status filtering
+*	ix. Scheduling search and navigation tools
+*	x. Hold list management for delayed work
+*	xi. Subcontractor confirmation processes
+d. Work Order Management
+*	i. Work order creation and configuration
+*	ii. Standard and placeholder work orders
+*	iii. Work order events and days management
+*	iv. Work order status workflows and progression
+*	v. Work order addressing and contact management
+*	vi. Work order line items management
+*	vii. Work order file attachments and documentation
+*	ix. Event type configuration and management
+*	x. Multi-event work order coordination
+e. Vendor Returns Management
+*	i. Vendor return authorization processing (if used)
+*	ii. Return materials authorization (RMA) tracking
+*	iii. Vendor return shipment management
+*	iv. Return goods tracking and documentation
+*	v. Return approval workflows and processing
+f. Time Tracking & Project Management
+*	i. Project time tracking on transactions
+*	vi. Time approval workflows and management
+*	xi. Employee rate and cost calculation
+g. Punch List & Issue Management
+*	i. Punch issue record creation and management
+*	ii. Problem type categorization and tracking
+*	iii. Problem reason identification and analysis
+*	iv. Line item association with punch issues
+*	v. Punch resolution planning and execution
+*	vi. Resolution type configuration and workflows
+*	vii. Corrective action order management
+*	viii. Punch status tracking and workflows
+*	ix. Image and documentation attachment
+*	x. Location and site condition tracking
+*	xi. Product return coordination
+h. Field Operations
+*	i. Mobile-optimized field applications
+*	ii. Work order completion in the field
+*	iii. Customer signature capture capabilities
+*	iv. Status reporting from field locations
+*	v. Photo capture and documentation
+*	vi. Unexpected product return notifications
+*	vii. Real-time work order updates and synchronization
+*	Offline Capabilities
+j. Vendor Center & Partner Portal
+*	i. Third-party vendor login and access management
+*	ii. Vendor purchase order visibility and tracking
+*	iii. Work order access for subcontractors
+*	iv. Vendor document sharing and communication
+*	v. Real-time status updates and notifications
+*	vi. Vendor performance tracking and reporting
+*	vii. Secure access controls and permissions
+k. Process Map
+*	Operations Flow: Purchase Order ? Receiving ? Work Order Creation ? Scheduling ? Field Execution ? 
+Punch Management ? Project Completion
+2. Analysis Framework
+a. Current State Assessment
+*	i. How do you currently manage receiving and warehouse operations?
+*	ii. What scheduling and resource management tools are you using today?
+*	iii. How do you create and manage work orders?
+*	iv. What is your current time tracking and project management process?
+*	v. How do you handle punch lists and issue resolution?
+*	vi. What field operations and mobile capabilities do you currently have?
+*	vii. How do you manage vendor returns and RMA processes?
+*	viii. What quality control and issue tracking processes exist?
+*	ix. How do vendors and subcontractors currently access information?
+*	x. What are your biggest operational challenges and pain points?
+*	xi. How do you currently track operational performance and KPIs?
+*	xii. What manual processes in operations need automation?
+b. Objectives & Strategy
+*	i. What are your overall goals for operational efficiency improvement?
+*	ii. How do you define success for warehouse and field operations?
+*	iii. What are your key performance metrics for operations?
+*	iv. How critical is real-time visibility to your operational success?
+*	v. What customer service improvements are you seeking in operations?
+*	vi. What cost control and productivity goals do you have?
+*	vii. How important is mobile and field capability to your operations?
+*	viii. What vendor and subcontractor collaboration improvements do you need?
+*	ix. What scalability requirements do you have for operational growth?
+c. Functional Requirements
+*	i. What receiving and warehouse management capabilities are required?
+*	ii. What scheduling and resource management features are needed?
+*	iii. How should work orders be created and managed?
+*	iv. What time tracking and project management capabilities are required?
+*	v. How should punch lists and issues be tracked and resolved?
+*	vi. What field operations and mobile capabilities are needed?
+*	vii. What vendor return and RMA processing is required?
+*	viii. What quality control and performance tracking features are needed?
+*	ix. What vendor portal and access capabilities are required?
+*	x. What reporting and analytics capabilities are essential?
+*	xi. What approval workflows and authorization levels are required?
+d. Technical Requirements
+*	i. What systems need to integrate with your operations platform?
+*	ii. What data migration is needed from current operational systems?
+*	iii. How should operational data flow between warehouse, field, and office?
+*	iv. What mobile access requirements do your field teams have?
+*	v. What reporting and dashboard integration is needed?
+*	vi. What API integrations are required with vendors and partners?
+*	vii. What security and access control requirements exist for vendor access?
+*	viii. What performance and scalability requirements exist for operational volume?
+*	ix. What backup and disaster recovery needs do you have?
+*	x. What compliance and audit trail requirements must be met?
+3. Implementation Alignment
+*	a. Client Requirement Description
+*	b. NetSuite / Orion Functionality
+4. Process Variations and Additional Requirements
+*	a. Adapt or Accommodate Decision: 
+o	i. Adapt: Use standard NetSuite/Orion operations processes
+o	ii. Accommodate: Customize workflows for specific operational needs
+*	b. Decision Rationale: Document chosen approach and business justification
+*	c. Solution Designs
+*	d. Implementation Considerations
+
+
+
+Financial Management Discovery Outline
+1. Overview of NetSuite / Orion Functionality
+a. Company Structure & Setup
+*	i. Statistical accounts configuration and management
+*	ii. Headcount statistical accounts for cost allocation
+*	iii. Legal entity and subsidiary structure
+*	iv. Consolidation and elimination capabilities
+b. Accounting Periods & Calendar
+*	i. Accounting periods management and configuration
+*	ii. Calendar-based period setup
+*	iii. Historical period configuration
+*	iv. Adjustment period setup and management
+*	v. Period locking and controls
+c. Currency & Exchange Rates
+*	i. Currency management and configuration
+*	ii. Exchange rate management and automation
+*	iii. Multiple currency setup (if needed)
+*	iv. Consolidated exchange rates
+*	v. Base currency definition and reporting
+d. Tax Management
+*	i. Sales tax configuration and management
+*	ii. Avalara AvaTax integration and setup
+*	iii. Tax exemption certificate management
+*	iv. Tax automation and calculation
+*	v. Nexus management and compliance
+e. Journal Entries & Allocations
+*	i. Standard journal entry processing
+*	ii. Reversing journal entries
+*	iii. Recurring journal entries
+*	iv. Journal entry imports and automation
+*	v. Allocation schedules and processing
+*	vi. Automated journal entries
+*	vii. Statistical allocation processing
+*	viii. Intercompany journal entries (if used)
+*	ix. Dynamic allocation based on statistical accounts
+f. Banking & Cash Management
+*	i. Bank account setup and management
+*	ii. Bank transaction processing
+*	iii. Bank check management and printing
+*	iv. Bank deposit processing
+*	v. Bank transfer management
+*	vi. Bank statement reconciliation
+*	vii. Online reconciliation processes
+*	viii. Bank feed integration
+g. Credit Card Management
+*	i. Corporate credit card transaction processing
+*	ii. Credit card account setup
+*	iii. Credit card statement reconciliation
+*	iv. Credit card payment processing
+h. Budgeting & Planning
+*	i. Budget creation and management
+*	ii. Budget importing and setup
+*	iii. Rolling forecast management
+*	iv. Budget vs. actual analysis
+*	v. Multiple budget scenarios (if advanced financials used)
+*	vi. Segment-based budgeting
+i. Period Close & Financial Controls
+*	i. Fiscal close process management
+*	ii. Period close checklist execution
+*	iii. AR and AP locking procedures
+*	iv. Date/period mismatch resolution
+*	v. Inventory reconciliation
+*	vi. Intercompany adjustments
+*	vii. GL audit numbering
+j. Customer Financial Management
+*	i. Invoice processing and management
+*	ii. Customer payment processing
+*	iii. Credit card payment processing
+*	iv. Finance charges and collections (if used)
+*	v. Statement charges (if used)
+*	vi. Cash sales processing (if used)
+*	vii. Credit memo processing
+*	viii. Customer cash refunds (if used)
+*	ix. Customer deposit management
+k. Project Accounting
+*	i. Project financial tracking and management
+*	ii. Project KPI monitoring and reporting
+*	iii. WIP (Work in Progress) management
+*	iv. Project cost allocation and tracking
+*	v. Project budget vs. actual analysis
+*	vi. Project currency management
+*	vii. Revenue and cost recognition on projects
+*	viii. Commissionable gross profit calculation
+*	ix. Margin erosion tracking
+*	x. Overhead fee calculation and allocation
+l. Revenue & Cost Recognition
+*	i. Revenue recognition processes
+*	ii. Cost recognition and allocation
+*	iii. Item fulfillment automation
+*	iv. GL posting for recognition events
+*	v. Partial invoice handling
+*	vi. Negative inventory scenarios
+m. Vendor & Accounts Payable Management
+*	i. Vendor master data management
+*	ii. Vendor bill processing and management
+*	iii. Three-way matching (PO, receipt, bill)
+*	iv. Bill approval workflows (if used)
+*	v. Vendor payment processing
+*	vi. Electronic payment processing
+*	vii. ACH and wire transfer setup
+*	viii. Vendor credit processing
+*	ix. Vendor refund management
+*	x. 1099 tracking and reporting
+n. Expense Management
+*	i. Employee expense reporting
+*	ii. Expense category setup and management
+*	iii. Expense approval workflows
+*	iv. Expense receipt attachment
+*	v. Mileage and standard rate calculations
+*	vi. Multi-project expense allocation
+o. Asset Management
+*	i. Amortization schedule management
+*	ii. Depreciation calculations
+*	iii. Fixed asset tracking (if used)
+*	iv. Asset disposal processing
+*	v. Prepaid expense amortization
+p. Financial Reporting & Analytics
+*	i. General ledger reporting
+*	ii. Financial statement generation
+*	iii. Income statement and balance sheet
+*	iv. Cash flow statement reporting
+*	v. Comparative financial reporting
+*	vi. Budget vs. actual reporting
+*	vii. Tax reporting and compliance
+*	viii. Bank reporting and reconciliation
+*	ix. Financial ratio analysis and KPIs
+*	x. Segment-based financial reporting
+*	xi. Real-time financial reporting
+*	xii. Accounts payable and receivable reporting
+q. Business Intelligence & Reporting
+*	i. Dashboard requirements and KPIs
+*	ii. Performance measurement systems
+*	iii. Operational metrics tracking
+*	iv. Standard and custom reporting needs
+*	v. Transaction reporting
+*	vi. Financial performance reporting
+*	vii. Business intelligence tools and analytics
+*	viii. Data visualization requirements
+*	ix. Document generation and PDF composition
+*	x. Template management
+*	xi. Report distribution
+r. Process Map
+*	Financial Management Flow: Transaction Entry ? Journal Processing ? Period Close ? Financial 
+Reporting ? Analysis & Planning
+2. Analysis Framework
+a. Current State Assessment
+*	i. What is your current financial management system and processes?
+*	ii. How do you currently handle accounting periods and closing?
+*	iii. What are your current budgeting and planning processes?
+*	iv. How do you manage cash, banking, and credit card transactions?
+*	v. What is your current accounts payable and receivable process?
+*	vi. How do you handle project accounting and cost tracking?
+*	vii. What are your current revenue and cost recognition practices?
+*	viii. How do you manage vendor relationships and payments?
+*	ix. What expense reporting and approval processes exist?
+*	x. How do you currently generate financial reports and analytics?
+*	xi. What are your biggest financial management challenges?
+*	xii. What manual financial processes need automation?
+b. Objectives & Strategy
+*	i. What are your overall goals for financial management improvement?
+*	ii. How do you define success for financial operations?
+*	iii. What are your key financial performance metrics and KPIs?
+*	iv. How critical is real-time financial visibility to your business?
+*	v. What cost control and profitability goals do you have?
+*	vi. What compliance and regulatory requirements must be maintained?
+*	vii. What financial reporting and analytics improvements are needed?
+*	viii. How important is project-level financial tracking to your business?
+*	ix. What scalability requirements do you have for financial growth?
+c. Functional Requirements
+*	i. What chart of accounts and financial structure is required?
+*	ii. What accounting period and closing processes are needed?
+*	iii. How should budgeting and planning be managed?
+*	iv. What cash and banking management capabilities are required?
+*	v. How should accounts payable and receivable be processed?
+*	vi. What project accounting and cost tracking features are needed?
+*	vii. What revenue and cost recognition capabilities are required?
+*	viii. How should vendor management and payments be handled?
+*	ix. What expense reporting and approval workflows are needed?
+*	x. What financial reporting and analytics capabilities are essential?
+*	xi. What approval workflows and authorization levels are required?
+d. Technical Requirements
+*	i. What systems need to integrate with your financial platform?
+*	ii. What data migration is needed from current financial systems?
+*	iii. How should financial data flow between modules and departments?
+*	iv. What mobile access requirements do your finance teams have?
+*	v. What reporting and dashboard integration is needed?
+*	vi. What API integrations are required with banks and financial institutions?
+*	vii. What security and access control requirements exist?
+*	viii. What performance and scalability requirements exist for transaction volume?
+*	ix. What backup and disaster recovery needs do you have?
+*	x. What compliance and audit trail requirements must be met?
+3. Implementation Alignment
+*	a. Client Requirement Description
+*	b. NetSuite / Orion Functionality
+4. Process Variations and Additional Requirements
+*	a. Adapt or Accommodate Decision: 
+o	i. Adapt: Use standard NetSuite/Orion financial management processes
+o	ii. Accommodate: Customize workflows for specific financial needs
+*	b. Decision Rationale: Document chosen approach and business justification
+*	c. Solution Designs
+*	d. Implementation Considerations
+
+
+
+
+
+
+
+Business Intelligence & Reporting Discovery Outline
+1. Overview of NetSuite / Orion Functionality
+a. Core NetSuite BI Tools
+*	i. Saved Searches with advanced filtering and customization
+*	ii. 400+ native reports across all functional areas
+*	iii. Workbook analytics for data analysis and visualization
+*	iv. SuiteQL for direct database querying and custom data extraction
+*	v. SuiteScript for complex custom reporting and automation
+*	vi. Real-time data access and live dashboard updates
+b. Dashboard & Analytics
+*	i. Customizable dashboard requirements and KPI tracking
+*	ii. Performance measurement systems and scorecards
+*	iii. Operational metrics tracking and monitoring
+*	iv. Role-based dashboard configurations
+*	v. Real-time data visualization and alerts
+*	vi. Executive summary dashboards
+*	vii. Drill-down capabilities from summary to detail
+c. Standard Reporting
+*	i. Standard NetSuite reports across all modules
+*	ii. Custom reporting needs and modifications
+*	iii. Transaction reporting and audit trails
+*	iv. Financial performance reporting and analysis
+*	v. Operational reporting and KPI tracking
+*	vi. Compliance and regulatory reporting
+d. Business Intelligence Tools
+*	i. Advanced business intelligence tools and analytics
+*	ii. Data visualization requirements and charting
+*	iii. Trend analysis and forecasting capabilities
+*	iv. Comparative reporting and benchmarking
+*	v. Ad-hoc reporting and self-service analytics
+*	vi. Cross-functional data analysis
+e. Data Export & Distribution
+*	i. Data export capabilities from all reports (Excel, CSV, PDF)
+*	ii. Scheduled report emailing and automation
+*	iii. Report distribution lists and routing
+*	iv. Automated report generation and delivery
+*	v. Bulk data extraction and integration
+*	vi. API-based data access for external tools
+f. Document Management
+*	i. Document generation and PDF composition
+*	ii. Template management and customization
+*	iii. Report distribution and workflow management
+*	iv. Document version control and approval
+*	v. Automated document creation from data
+*	vi. Custom form and report layouts
+g. Advanced Analytics & Customization
+*	i. SuiteQL custom queries and data modeling
+*	ii. SuiteScript custom reports and calculations
+*	iii. Workbook CLIENT tables and data analysis
+*	iv. Complex KPI calculations and formulas
+*	v. Custom dashboard portlets and widgets
+*	vi. Integration with external BI tools
+h. Process Map
+*	BI Flow: Data Entry ? Real-time Processing ? Saved Searches/Reports ? Dashboard Display ? Analysis 
+? Distribution ? Decision Making
+2. Analysis Framework
+a. Current State Assessment
+*	i. What reporting and analytics tools are you currently using?
+*	ii. How do you currently create and distribute reports?
+*	iii. What dashboards and KPIs are you tracking today?
+*	iv. What are your current data export and analysis processes?
+*	v. How do you handle document generation and management?
+*	vi. What business intelligence and analytics capabilities exist?
+*	vii. Who are your primary report users and what are their needs?
+*	viii. What manual reporting processes need automation?
+*	ix. How do you currently schedule and distribute reports?
+*	x. What are your biggest reporting and analytics challenges?
+*	xi. What compliance and regulatory reporting requirements exist?
+*	xii. What real-time vs. batch reporting needs do you have?
+b. Objectives & Strategy
+*	i. What are your overall goals for business intelligence improvement?
+*	ii. How do you define success for reporting and analytics?
+*	iii. What are your key performance metrics and KPIs to track?
+*	iv. How critical is real-time data visibility to your decision making?
+*	v. What self-service analytics capabilities do you want to provide?
+*	vi. What compliance and audit reporting improvements are needed?
+*	vii. How important is mobile access to reports and dashboards?
+*	viii. What data visualization and presentation improvements do you need?
+*	ix. What scalability requirements do you have for reporting growth?
+c. Functional Requirements
+*	i. What standard reports and modifications are required?
+*	ii. What custom reports and analytics capabilities are needed?
+*	iii. What dashboard and KPI tracking features are required?
+*	iv. How should reports be scheduled and distributed?
+*	v. What data export and integration capabilities are needed?
+*	vi. What document generation and template management is required?
+*	vii. What business intelligence and visualization tools are needed?
+*	viii. What role-based access and security requirements exist?
+*	ix. What mobile and remote access capabilities are required?
+*	x. What real-time vs. historical reporting needs exist?
+*	xi. What approval workflows for reports and documents are needed?
+d. Technical Requirements
+*	i. What systems need to integrate with your BI platform?
+*	ii. What data migration is needed from current reporting systems?
+*	iii. How should report data flow to external systems and users?
+*	iv. What mobile access requirements do your report users have?
+*	v. What API integrations are required with external BI tools?
+*	vi. What security and access control requirements exist for reports?
+*	vii. What performance and scalability requirements exist for report volume?
+*	viii. What backup and archival needs do you have for reports?
+*	ix. What compliance and audit trail requirements must be met?
+*	x. What custom development capabilities are needed for complex reporting?
+3. Implementation Alignment
+*	a. Client Requirement Description
+*	b. NetSuite / Orion Functionality
+4. Process Variations and Additional Requirements
+*	a. Adapt or Accommodate Decision: 
+o	i. Adapt: Use standard NetSuite/Orion BI and reporting capabilities
+o	ii. Accommodate: Customize reporting and analytics for specific needs
+*	b. Decision Rationale: Document chosen approach and business justification
+*	c. Solution Designs
+*	d. Implementation Considerations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

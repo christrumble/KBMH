@@ -1,0 +1,204 @@
+KBM DISCOVERY SESSION TRANSCRIPTS - BUSINESS INTELLIGENCE
+=========================================================
+
+SESSION: Business Intelligence and Reporting
+DATE: July 31, 2025
+=========================================================
+
+NETSUITE BI TOOLS
+-----------------
+Core BI Capabilities:
+- Dashboards with KPIs
+- Standard reporting (400+ reports)
+- Workbook analytics (Excel-like)
+- SuiteQL (NetSuite's SQL)
+- Data export capabilities
+
+Dashboard Components:
+- Financial overview sections
+- Period-over-period reporting
+- Interactive charts and graphs
+- Drill-down capabilities
+- Role-based publishing
+
+REPORTING CHALLENGES
+--------------------
+Current Issues:
+- Multiple versions of same report
+- Different criteria = different numbers
+- "Mark's version, Matt's version, Kip's version"
+- Trust issues with reporting
+- Inconsistent data interpretation
+
+Solution Approach:
+- Prefix official reports
+- "Official" designation for key reports
+- Public vs private saved searches
+- Manager-controlled dashboards
+- Standardized reporting
+
+DASHBOARD STRATEGY
+-----------------
+Department-Specific Dashboards:
+- Finance center
+- Sales center
+- Operations center
+- Pre-quote center
+- Role-based access
+
+Dashboard Features:
+- KPIs and highlights
+- Recent transactions
+- Reminders portlet
+- Task management
+- Workflow integration
+
+REPORTING STANDARDS
+-------------------
+Official Reports:
+- Income statement
+- Balance sheet
+- Trial balance
+- AR aging
+- Project GP reports
+- Commission reports
+
+Customization Capabilities:
+- All 400+ standard reports customizable
+- Saved searches with filters
+- Mass update functionality
+- Export to Excel/PDF
+- Scheduled report generation
+
+DATA EXPORT CONTROLS
+-------------------
+Security Concerns:
+- Customer data export prevention
+- Large data download notifications
+- Role-based export permissions
+- Audit trail for exports
+
+Current Core Limitations:
+- No export controls
+- Easy data extraction
+- Security vulnerabilities
+
+Proposed NetSuite Controls:
+- Export permission by role
+- Notification system for large downloads
+- Data access monitoring
+- User activity tracking
+
+REAL-TIME REPORTING
+-------------------
+NetSuite Advantages:
+- Real-time data
+- No aged data issues
+- Live dashboards
+- Immediate updates
+- Single source of truth
+
+Current State:
+- Manual report generation
+- Excel-based reporting
+- Outdated information
+- Multiple data sources
+
+Future State:
+- Automated reporting
+- Real-time dashboards
+- Integrated data
+- Self-service analytics
+
+PROJECT MANAGEMENT REPORTING
+---------------------------
+Current Tools:
+- Google Sheets
+- Excel spreadsheets
+- Manual tracking
+- Asana integration
+
+NetSuite Capabilities:
+- Project status reports
+- Resource utilization
+- Timeline tracking
+- Budget vs actual
+- Milestone reporting
+
+Suite Projects Integration:
+- Task completion tracking
+- Resource assignment
+- Project health indicators
+- Automated workflows
+- Status updates
+
+ANALYTICS WORKBOOKS
+------------------
+Excel-Like Functionality:
+- Pivot tables
+- Charts and graphs
+- Data manipulation
+- Filtering and sorting
+- Interactive dashboards
+
+Use Cases:
+- Pipeline analysis
+- Sales performance
+- Project profitability
+- Resource utilization
+- Market trends
+
+SUITEQL CAPABILITIES
+--------------------
+Advanced Querying:
+- Bypass application layer
+- Fast data retrieval
+- Custom reports
+- Complex analytics
+- Data mining
+
+Technical Requirements:
+- SQL knowledge
+- Database access
+- Custom development
+- Performance optimization
+
+REPORTING AUTOMATION
+-------------------
+Scheduled Reports:
+- Automated generation
+- Email distribution
+- PDF/Excel export
+- Dashboard updates
+- KPI monitoring
+
+Integration Points:
+- Email systems
+- Document management
+- Workflow automation
+- Alert systems
+- Notification services
+
+BUSINESS INTELLIGENCE STRATEGY
+------------------------------
+Data Governance:
+- Single source of truth
+- Data quality standards
+- User training
+- Change management
+- Documentation
+
+Performance Metrics:
+- Real-time KPIs
+- Historical trends
+- Comparative analysis
+- Predictive analytics
+- Benchmarking
+
+User Adoption:
+- Training programs
+- Self-service tools
+- Role-based access
+- Mobile capabilities
+- User support
+
