@@ -1,9 +1,14 @@
 # Requirements Map - Marketing
-**Version**: 3.0  
-**Date**: 2025-10-15  
+**Version**: 3.1  
+**Date**: 2025-10-23  
 **Process Area**: Marketing (Campaigns, Events, Content, Market Intelligence)
 
 ## Change Log
+- **Date**: 2025-10-23
+- **Version**: 3.1
+- **Sources**: Gap Analysis findings from GapAnalysis_Marketing.md
+- **Summary**: Added 2 new requirements from organic discovery (REQ-M026, REQ-M027); updated approach classifications based on gap analysis; no changes to existing requirements 1-25.
+
 - **Date**: 2025-10-15
 - **Version**: 3.0
 - **Sources**: Marketing/2 Input/Master_Transcript_Marketing.md; Marketing/2 Input/MRK & CRM Outline & Questionnaire
@@ -48,18 +53,20 @@
 | REQ-M023 | Survey functionality within NetSuite campaigns | F | Campaign Surveys | Create surveys, track responses, results on records, trend analysis | No | FUTURE | Dependent on REQ-M022 decision; native capability available |
 | REQ-M024 | Web form lead capture with automatic creation | F | Web-to-Lead Forms | Contact form → NetSuite lead; auto-routing; integration with website | No | ALIGNS | Form spam risk; routing logic; low lead quality expected (mostly deletions) |
 | REQ-M025 | Google Drive integration for file management | F | Google Drive Connector | Files represented in NetSuite but stored in Drive; avoid 100GB NetSuite limit | Yes | ACCOMMODATE | Integration configuration; dual storage strategy; link management; governance |
+| REQ-M026 | Content library structure and document management | F | Folder Management + Document Storage | Organize presentations, proposals, RFP responses, templates; version control; search/retrieval | Yes | ACCOMMODATE | Custom folder structure; permission matrix; Google Drive scope definition |
+| REQ-M027 | Philippines team time tracking integration | F | Time Tracking Integration | Track Philippines team time on RFP projects; resource allocation visibility; volume accuracy | Yes | ACCOMMODATE | Integration requirements; time entry workflow; reporting integration |
 
 ## Totals by Approach
-- **ALIGNS**: 8 requirements (32%)
-- **ADAPT**: 5 requirements (20%)
-- **ACCOMMODATE**: 10 requirements (40%)
-- **FUTURE**: 2 requirements (8%)
+- **ALIGNS**: 8 requirements (30%)
+- **ADAPT**: 5 requirements (18%)
+- **ACCOMMODATE**: 12 requirements (44%)
+- **FUTURE**: 2 requirements (7%)
 
-**Total**: 25 Marketing-specific requirements
+**Total**: 27 Marketing-specific requirements
 
 ## Customization Summary
 
-**Solution Design Required (SolutionDesign? = Yes): 12 requirements**
+**Solution Design Required (SolutionDesign? = Yes): 14 requirements**
 
 ### High Complexity Customizations:
 1. **Multi-dimensional segmentation system** (REQ-M004, M005, M006, M007, M008) - Custom fields, taxonomy, validation rules, governance
@@ -70,6 +77,8 @@
 ### Medium Complexity Customizations:
 5. **Google Drive integration** (REQ-M025) - Connector configuration, governance
 6. **RFP request engine** (REQ-M017) - Form design, workflow routing
+7. **Content library management** (REQ-M026) - Folder structure, permissions
+8. **Philippines team integration** (REQ-M027) - Time tracking, resource visibility
 
 ## Critical Dependencies
 

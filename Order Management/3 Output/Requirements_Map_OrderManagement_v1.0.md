@@ -4,10 +4,11 @@
 **Process Area**: Order Management
 
 ## Change Log
-- **Date**: 2025-10-16
-- **Version**: 1.0
-- **Sources**: Master_Transcript_Order_Management.md (July 2025)
+- **Date**: 2025-10-23
+- **Version**: 1.0 (Pending v1.1 Update)
+- **Sources**: Master_Transcript_Order_Management.md (July 2025), GapAnalysis_OrderManagement.md (2025-10-23)
 - **Summary**: Initial requirements map created from Order Management discovery questionnaire, capturing 43 requirements across transaction management, approvals, customer PO tracking, tax management, templates, order types, commission, and integrations.
+- **Pending Updates**: Gap analysis completed on 2025-10-23 identifying 4 critical gaps requiring follow-up sessions. Requirements map will be updated to v1.1 after completion of Sessions 1-4 (estimated +5-9 new requirements from draft PO workflow, quote versioning, customer hierarchy, SO fields, and e-portal specifications).
 
 ## Implementation Approach Classifications
 
@@ -160,11 +161,37 @@ All requirements traced to:
 3. **Template Design Review & Approval** - Kipp to approve recreated templates (REQ-029, 030)
 4. **E-Portals Discussion** - Coupa and other portal requirements (REQ-040)
 
+**See GapAnalysis_OrderManagement.md for detailed session plans, pre-work requirements, and expected outcomes.**
+
+---
+
+## Gap Analysis Reference
+
+**Completeness Assessment** (as of 2025-10-23):
+- **Overall Completeness**: 84% of questions fully answered (21 of 25 questions)
+- **Requirements Coverage**: 43 requirements mapped, estimated +5-9 additional requirements from follow-up sessions
+- **Critical Gaps Identified**: 4 (Draft PO workflow, Customer PO tracking design, E-portals/Coupa integration, Complete order type list)
+- **Follow-Up Sessions**: 4 targeted sessions (6.5 hours total)
+- **Timeline to 100% Complete**: 3-4 weeks
+
+**Next Version**: v1.1 will incorporate all findings from the 4 follow-up sessions and add newly identified requirements. Expected completion: November 20, 2025.
+
+For complete gap analysis including:
+- Comprehensive question status matrix
+- Information gaps analysis with priorities
+- Stakeholder engagement assessment
+- Detailed session plans with agendas and pre-work
+- Consultant action plan with timelines
+- Success metrics and completion targets
+
+**Reference Document**: `Order Management/3 Output/GapAnalysis_OrderManagement.md`
+
 ---
 
 **Requirements Map Version 1.0 Complete**
 
-*This requirements map will be updated as additional discovery sessions occur and requirements are refined during the design phase.*
+*This requirements map will be updated to v1.1 as additional discovery sessions occur and requirements are refined during the design phase.*
+
 
 
 

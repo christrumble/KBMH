@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-Based on the comprehensive analysis of questionnaires and requirements maps across all 8 business process areas, this document proposes **24 follow-up discovery sessions** to complete the Discovery phase of the NetSuite/Orion implementation. These sessions address outstanding requirements, clarify implementation approaches, and validate critical decisions before moving to the Realize phase.
+Based on the comprehensive analysis of questionnaires and requirements maps across all 8 business process areas, this document proposes **29 follow-up discovery sessions** to complete the Discovery phase of the NetSuite/Orion implementation. These sessions address outstanding requirements, clarify implementation approaches, and validate critical decisions before moving to the Realize phase.
+
+**Update:** Financial Management expanded from 3 to 8 sessions based on detailed requirements analysis. High-priority sessions identified for Revenue Recognition, Chart of Accounts Design, and Commission Structure require dedicated focus due to complexity and impact on implementation.
 
 ## Session Overview by Business Process Area
 
@@ -42,37 +44,113 @@ Based on the comprehensive analysis of questionnaires and requirements maps acro
 - **Status**: Complete - All requirements captured and mapped
 - **Note**: No additional discovery sessions needed based on comprehensive questionnaire analysis
 
-### 3. Financial Management (3 Sessions)
+### 3. Financial Management (8 Sessions)
 
-#### Session 3.1: Tax Management & Compliance Deep Dive
+**Note:** Detailed session outline available in `Financial Management\1 Instructions\Financial_Management_Follow-Up_Discovery_Session.md`
+
+#### Session 3.1: Revenue Recognition Rules & Project Accounting (HIGH PRIORITY)
+- **Duration**: 90 minutes
+- **Participants**: Lorraine (CFO), Kipp, Marcus, Operations team
+- **Topics**:
+  - Revenue recognition timing for different order types
+  - Special recognition scenarios (mockups, direct bill, intermarket, government, e-commerce)
+  - Project-based revenue rules and cost recognition alignment
+  - Compliance & audit requirements (ASC 606)
+  - Reporting requirements for unbilled revenue, deferred revenue, backlog
+- **Outcomes**: Detailed revenue recognition rules by order type, white paper review, implementation approach, testing plan
+- **Why Critical**: Complex, compliance-critical; errors impact financials; dedicated session identified as high priority
+
+#### Session 3.2: Chart of Accounts Design & Mapping Workshop (HIGH PRIORITY)
 - **Duration**: 2 hours
-- **Participants**: CFO, Controller, Tax Manager, GSI tax specialist
+- **Participants**: Lorraine, Celine, Kevin (GL), Implementation team
 - **Topics**:
-  - SuiteTax configuration for multi-state operations
-  - Use tax and gross receipts tax requirements
-  - Tax reporting and compliance workflows
-  - Integration with external tax services
-- **Outcomes**: Tax configuration requirements, compliance procedures, integration specs
+  - Current 40+ page COA analysis and consolidation strategy
+  - Target "few hundred accounts" structure design
+  - Account numbering scheme and parent/child hierarchy
+  - Project vs. G&A cost structure in COA
+  - 15% labor markup impact on COA (if continued)
+  - Mapping strategy from old to new COA
+- **Pre-Work Required**: Export current Core COA, identify top 50 accounts, list duplicates/rarely used
+- **Outcomes**: Proposed NetSuite COA structure, mapping document, account numbering scheme, training requirements
+- **Why Critical**: Foundational - impacts all transactions and reports; 40+ pages to few hundred is major change
 
-#### Session 3.2: Banking & Payment Processing Integration
-- **Duration**: 1.5 hours
-- **Participants**: CFO, Controller, Banking team, GSI integration specialist
+#### Session 3.3: Commission Structure & GP Calculation Deep Dive (HIGH PRIORITY)
+- **Duration**: 90 minutes
+- **Participants**: Lorraine, Kipp, Matt/Mark (Leadership), Sales Leadership
 - **Topics**:
-  - Bank feed requirements and setup
-  - Electronic payment workflows
-  - Credit card reconciliation processes
-  - Payment processing integration options
-- **Outcomes**: Banking integration requirements, payment workflow design
+  - **DECISION REQUIRED**: 15% labor markup - continue or eliminate? (Matt/Mark)
+  - Commission calculation details (header vs. line level, splits, timing)
+  - Project GP vs. Commissionable GP reporting requirements
+  - Role-based visibility & security matrix
+  - KPI dashboard requirements for both GP metrics
+- **Outcomes**: 15% labor markup decision, commission rules documented, GP reporting specs, role permissions matrix
+- **Why Critical**: Affects sales compensation; custom development required for dual GP reporting
 
-#### Session 3.3: Period Close & Financial Reporting Validation
-- **Duration**: 2 hours
-- **Participants**: CFO, Controller, Accounting team, GSI finance consultant
+#### Session 3.4: Period Close Process Optimization
+- **Duration**: 60 minutes
+- **Participants**: Lorraine, Celine, Kevin, Kipp, GSI consultant
 - **Topics**:
-  - Month-end close procedures and timelines
-  - Financial reporting requirements and formats
-  - Audit trail and compliance requirements
-  - Historical data migration validation
-- **Outcomes**: Close procedures, reporting templates, migration validation plan
+  - Current 10-day Excel-based close process walkthrough
+  - Reconciliation requirements and tolerances
+  - Journal entry requirements during close (recurring, accruals, reversals)
+  - NetSuite Period Close Checklist customization
+  - Close timeline goals (target: reduce from 10 days)
+  - Period locking & controls, AP/AR close vs. GL close
+- **Outcomes**: Customized Period Close Checklist, task assignments, target timeline, close procedures
+- **Why Important**: Current pain point - 10 days via Excel; goal is efficiency improvement
+
+#### Session 3.5: Bill Payment & Cash Management Workflow Details
+- **Duration**: 45 minutes
+- **Participants**: Lorraine, Guada, Michael (AP), GSI consultant
+- **Topics**:
+  - Payment approval workflow details (Lorraine picks and chooses from $3M runs)
+  - Remittance process (automatic vs. manual trigger)
+  - Wire transfer handling (international wires)
+  - Vendor prepayments process
+  - Positive pay process with West Coast Community Bank
+  - Payment exceptions & error handling
+  - Cash flow management with Cache360 Dashboard
+- **Outcomes**: Bill payment workflow fully defined, remittance process confirmed, cash flow requirements specified
+- **Why Important**: Critical AP process with high dollar amounts; workflow details need clarification
+
+#### Session 3.6: Expense Management System Decision & Project Coding
+- **Duration**: 45 minutes
+- **Participants**: Lorraine, Kipp, AP team, sample expense submitters, GSI consultant
+- **Topics**:
+  - **DECISION REQUIRED**: Expensify Suite App OR RAMP integration
+  - Current pain points (manual process, user resistance: "Who likes to do expense reports?")
+  - Project vs. G&A allocation requirements (COGS vs. G&A expenses)
+  - Demo both options - evaluation criteria
+  - Integration requirements (auto-sync, receipt flow, project coding fields)
+  - Approval workflow and credit card integration
+- **Pre-Work**: Schedule demos for both platforms
+- **Outcomes**: Platform decision, project coding requirements documented, integration specs
+- **Why Important**: Critical requirement for project cost accuracy; user experience affects adoption
+
+#### Session 3.7: Fixed Asset Management Decision
+- **Duration**: 30 minutes
+- **Participants**: Lorraine, Celine/Kevin, GSI consultant
+- **Topics**:
+  - **DECISION REQUIRED**: NetSuite Fixed Asset module OR continue Bloomberg
+  - Current Bloomberg functionality and costs
+  - NetSuite FA module capabilities evaluation
+  - Book vs. tax depreciation requirements
+  - Migration of existing assets (if NetSuite FA chosen)
+  - Cost-benefit analysis
+- **Outcomes**: Platform decision, detailed requirements (if NetSuite FA), migration plan
+- **Why Important**: Cost savings opportunity; system consolidation vs. functionality risk
+
+#### Session 3.8: Vendor Credit Limit Tracking & Alerts
+- **Duration**: 20 minutes
+- **Participants**: Lorraine, Purchasing team, Shannon, GSI consultant
+- **Topics**:
+  - Current pain point: "Mad scramble at that nth hour" when hitting vendor limits
+  - Warning threshold definition (suggested 90% of credit limit)
+  - Alert recipients and mechanism (email, dashboard, PO blocking?)
+  - Credit utilization calculation (open POs + unpaid bills vs. limit)
+  - Process when approaching limit (expedite payment, request increase, defer orders)
+- **Outcomes**: Threshold defined, alert mechanism specified, custom development requirements documented
+- **Why Important**: Prevents unexpected order delays and vendor relationship issues
 
 ### 4. Marketing (2 Sessions)
 
@@ -251,8 +329,9 @@ Based on the comprehensive analysis of questionnaires and requirements maps acro
 - Data Migration Strategy (8.1)
 - Integration Requirements (8.2)
 
-### Phase 2: Core Process Sessions (Weeks 3-4)
-- Financial Management sessions (3.1-3.3)
+### Phase 2: Core Process Sessions (Weeks 3-5)
+- Financial Management HIGH PRIORITY sessions (3.1-3.3): Revenue Recognition, Chart of Accounts, Commission Structure
+- Financial Management STANDARD sessions (3.4-3.8): Period Close, Bill Payment, Expense Mgmt, Fixed Assets, Vendor Limits
 - Order Management sessions (6.1-6.4)
 - Operations sessions (5.1-5.2)
 
@@ -314,10 +393,21 @@ Based on the comprehensive analysis of questionnaires and requirements maps acro
 
 ## Estimated Timeline
 
-- **Total Sessions**: 24
-- **Estimated Duration**: 6-7 weeks
-- **Total Hours**: 42 hours of discovery sessions
+- **Total Sessions**: 29 (updated from 24)
+- **Estimated Duration**: 7-8 weeks
+- **Total Hours**: 48.5 hours of discovery sessions
 - **Completion Target**: End of Discovery phase, ready for Realize phase initiation
+
+**Breakdown by Business Process Area:**
+- Business Intelligence & Reporting: 3 sessions (4.5 hours)
+- CRM: 0 sessions (complete)
+- Financial Management: 8 sessions (8.5 hours) - **EXPANDED**
+- Marketing: 2 sessions (2.5 hours)
+- Operations: 2 sessions (3.5 hours)
+- Order Management: 4 sessions (6 hours)
+- Pre-Quote: 4 sessions (5.5 hours)
+- System Setup and Configuration: 4 sessions (6 hours)
+- Cross-Process Integration: 2 sessions (2 hours - from Project Governance)
 
 ---
 
