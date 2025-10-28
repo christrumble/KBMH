@@ -81,6 +81,234 @@ You operate with a **lean but mighty finance team** managing a **$100M dealer op
 
 ---
 
+## TRANSCRIPT EVIDENCE & JUSTIFICATION FOR FOLLOW-UP QUESTIONS
+
+### SESSION 1: Revenue Recognition Rules & Project Accounting
+
+**Transcript Evidence:**
+- **Master Transcript, Line 68-79:** "Current Process: Sales order = revenue recognition... Static process after quote creation... No changes after sales order... NetSuite Approach: Separate transaction types... Opportunity → Quote → Sales Order"
+- **Master Transcript, Line 792-797:** "White Paper mentioned by Marcus for revenue recognition differences... Full revenue recognition discussion likely continued but not captured in transcript excerpts reviewed"
+- **Transcript_FinancialManagement_20250918.md, Line 125-134:** "White Paper Provided: GSI has detailed white paper on revenue recognition in NetSuite... Different from Core's approach... Review required: Lorraine needs to understand differences"
+
+**Justification:**
+The discovery sessions identified that KBM's revenue recognition process is simplistic ("sales order = revenue recognition") but NetSuite offers more sophisticated capabilities through separate transaction types (Opportunity → Quote → Sales Order). A white paper was referenced but not fully discussed. The transcript shows Lorraine explicitly "needs to understand differences" between Core and NetSuite approaches. This session is required to:
+1. Explain the white paper findings
+2. Clarify when revenue should recognize for different order types
+3. Document special scenarios (mockup orders, direct bill, government orders, E-commerce)
+4. Establish compliance requirements
+5. Define audit documentation needs
+
+---
+
+### SESSION 2: Chart of Accounts Design & Mapping Workshop
+
+**Transcript Evidence:**
+- **Master Transcript, Line 595-612:** "Chart of Accounts - Current State: Volume: 40+ pages of accounts in Core... Unwieldy and difficult to manage... Target State: Few hundred accounts"
+- **Master Transcript, Line 1147-1149:** "Pain Points: 40+ Page Chart of Accounts: Unwieldy and hard to manage... Need consolidation... Cleaner reporting structure"
+- **Transcript_FinancialManagement_20250918.md, Line 234:** "Chart of Accounts - Early priority, needed immediately"
+- **Master Transcript, Line 624-638:** "Data Migration Strategy - Core Data Export: SQL backend access confirmed... Data migration tool available"
+
+**Justification:**
+The transcripts repeatedly highlight the 40+ page chart of accounts as a major pain point that is "unwieldy and difficult to manage." This was identified as an "early priority, needed immediately" for data migration. However, the current state COA hasn't been exported or analyzed. This session is required to:
+1. Export and analyze current Core COA structure
+2. Identify redundant/duplicate accounts
+3. Define target structure ("few hundred accounts")
+4. Create mapping from old to new COA
+5. Impact historical reporting and trend analysis
+6. Plan user training for new structure
+
+---
+
+### SESSION 3: Commission Structure & GP Calculation Deep Dive
+
+**Transcript Evidence:**
+- **Master Transcript, Line 440-527:** Complete section on "15% LABOR MARKUP (CONTINGENCY LINE)" with detailed explanation of the practice, impact, and industry comparison
+- **Master Transcript, Line 512-522:** "Two GP Metrics: Project GP: True gross profit... Commissionable GP: Includes 15% labor markup... Kipp: 'That's why we have two... different set of KPIs'"
+- **Master Transcript, Line 512-516:** "Up for Debate: That may be up for debate as to whether or not we would want to keep that... Matt and Mark decision... Kipp: I'd be completely in favor of getting rid of it, but I don't... that's not my [decision]"
+- **Master Transcript, Line 515-519:** "Commission Impact: Commission is paid on that... Changing it would affect commission calculations"
+- **Transcript_FinancialManagement_20250918.md, Line 89-122:** Detailed section on "Labor Margin Contingency - 15% Load Factor"
+
+**Justification:**
+The transcripts thoroughly document that KBM uses a 15% labor markup system with significant implications:
+- It affects commission calculations (commissions are "paid on that")
+- Requires two separate GP metrics (Project GP vs. Commissionable GP)
+- Requires role-based visibility (different users see different KPIs)
+- Is "up for debate" with pending decision from Matt/Mark
+- The implementation approach in NetSuite is unknown
+
+This session is required to:
+1. Obtain Matt/Mark's final decision on whether to continue
+2. Document exact commission calculation rules
+3. Define who needs to see which GP metric
+4. Plan custom development if continuing
+5. Design role-based permissions for GP visibility
+6. Plan communication to sales team regarding any changes
+
+---
+
+### SESSION 4: Period Close Process Optimization
+
+**Transcript Evidence:**
+- **Master Transcript, Line 532-537:** "Current Process: Timeline: 10 days to close accounting period... All managed via Excel... No system-guided process"
+- **Master Transcript, Line 1152-1156:** "Pain Points: 10-Day Period Close: All manual via Excel... No system guidance... Tracking challenges... Want to reduce timeline"
+- **Master Transcript, Line 544-547:** "Previous Experience (Lorraine): Used Blackline or Flowcast in prior roles... Online systems for close management"
+- **Master Transcript, Line 562-573:** "NetSuite Period Close - Built-in Checklist: Period closing checklist feature... Step-by-step process"
+- **Master Transcript, Line 563-573:** "Module Closing: Can close AP/AR separately and go through checklist... Flexible closing process"
+
+**Justification:**
+The discovery sessions identified a 10-day, entirely Excel-based period close process with no system guidance. Lorraine has prior experience with modern close tools (Blackline/Flowcast), suggesting she would appreciate a NetSuite-based solution. However, critical details are missing:
+- Current close steps and timeline breakdown
+- Reconciliation requirements and frequencies
+- Recurring journal entries and accruals
+- Close checklist customization needs
+- Target timeline for NetSuite close
+- AP/AR closing sequence and gates
+
+This session is required to:
+1. Document current 10-day Excel-based process in detail
+2. Identify bottlenecks and optimization opportunities
+3. Define customized NetSuite Period Close Checklist steps
+4. Establish task assignments and approval gates
+5. Set realistic target timeline (5-7 days goal?)
+6. Plan training for new process
+
+---
+
+### SESSION 5: Bill Payment & Cash Management Workflow Details
+
+**Transcript Evidence:**
+- **Master Transcript, Line 270-299:** Complete section on "Payment Approval Workflow" detailing Monday payment runs, Lorraine's approval process, and current workflow
+- **Master Transcript, Line 275-278:** "Monday Payment Process: Regular Monday payment runs... Sometimes $3M... Lorraine reviews and approves... 'They always try to kill me with the amounts'"
+- **Master Transcript, Line 233-253:** "Electronic Bill Payments (ACH) - Current Process: Run check run in Core... Generate HTML file (NACHA format)... Log into bank portal... Upload file"
+- **Master Transcript, Line 243-248:** "NetSuite Capability: Advanced Electronic Bill Payments (part of edition)... Pay via ACH directly from NetSuite... Skip manual bank portal upload step"
+- **Master Transcript, Line 256-268:** "Wire Transfers: Wires restricted to international (expensive)... ACH is cheap... Module question: ACH only or wire support too?"
+- **Master Transcript, Line 299-300:** "Action Items: Confirm exact approval workflow steps... Determine if approver can edit payment selection... Confirm remittance process (automatic or manual trigger)... If it said we sent it and we didn't, then you know that's a problem"
+
+**Justification:**
+The discovery sessions identified that KBM's current payment process involves multiple manual steps (NACHA file generation, bank portal upload, verification). NetSuite's Advanced Electronic Bill Payments can eliminate the bank portal step, but several workflow details need clarification:
+- Exact approval workflow (Can Lorraine remove items in-system or only communicate back to AP?)
+- Remittance process (automatic vs. manual)
+- Wire transfer handling (if not supported in ACH module)
+- Payment run compilation criteria
+- Vendor prepayment handling
+- Cash flow management
+
+This session is required to:
+1. Confirm exact approval workflow and system-based vs. manual communication
+2. Define remittance process (automatic or manual trigger)
+3. Determine wire transfer handling approach
+4. Document payment exception handling
+5. Specify cash flow forecasting requirements
+6. Plan training for new approval workflow
+
+---
+
+### SESSION 6: Expense Management System Decision & Project Coding
+
+**Transcript Evidence:**
+- **Master Transcript, Line 341-379:** Complete section on "Expense Management - Expensify" with current manual process and NetSuite integration options
+- **Master Transcript, Line 342-350:** "Current Process: Users create expense reports in Expensify... AP team manually downloads... Manual coding into GL... Obviously a lot of work there up front"
+- **Master Transcript, Line 352-355:** "User Challenge: Matt has a lot of lines that he has to manage... Matt: I just don't do it... Who likes to do expense reports? That's why I made Chris buy everything"
+- **Master Transcript, Line 357-361:** "NetSuite Solution: Expensify Integration (Suite App available)... Absolutely talk to each other. You can just sync data"
+- **Master Transcript, Line 363-367:** "Alternative: RAMP... Lorraine interested in moving from Expensify to RAMP... Could potentially demo both"
+- **Master Transcript, Line 380-395:** "Expense Report Allocation - Cost Structure Question: Two different cost categories... Cost of Goods Sold - project costs... G&A - general administrative expenses"
+- **Master Transcript, Line 1213-1218:** "Expensify/RAMP Integration: Auto-sync to NetSuite... Attach receipts automatically... Project coding... Eliminate manual download/upload"
+
+**Justification:**
+The discovery sessions identified significant pain points with the current Expensify process:
+- Users resist creating expense reports ("who likes to do expense reports?")
+- Manual download/upload creates substantial administrative work
+- Expense allocation must support both project costs (COGS) and G&A
+- Lorraine is interested in exploring RAMP as an alternative
+- Both platforms have NetSuite integration available
+
+However, critical requirements are unclear:
+- Exact project coding requirements (project number only or project + phase/task?)
+- User experience needs (what would make users more willing to submit?)
+- Integration specifications for chosen platform
+- Approval workflow requirements
+- Credit card reconciliation approach
+
+This session is required to:
+1. Document project vs. G&A allocation requirements in detail
+2. Identify user experience requirements for adoption
+3. Demo both Expensify Suite App and RAMP
+4. Evaluate project coding capabilities
+5. Define approval workflow
+6. Plan credit card reconciliation approach
+7. Make platform selection decision
+
+---
+
+### SESSION 7: Fixed Asset Management Decision
+
+**Transcript Evidence:**
+- **Master Transcript, Line 829-857:** Complete section on "Fixed Asset Management" comparing Bloomberg vs. NetSuite module
+- **Master Transcript, Line 833-836:** "Bloomberg: Third party for tax depreciation... Separate from Core... Tax vs. book depreciation tracking"
+- **Master Transcript, Line 840-850:** "NetSuite Fixed Asset Module - Option: Additional cost (~$4,000)... Lorraine's Question: I just want to know if NetSuite can meet our needs... Marcus Assessment: I think the fixed asset module's gonna handle what you need"
+- **Master Transcript, Line 852-856:** "Decision: Evaluate NetSuite FA module capabilities... Compare to Bloomberg functionality... Cost-benefit analysis"
+- **Transcript_FinancialManagement_20250918.md, Line 173-177:** "Asset Management: Fixed asset tracking required... Depreciation calculations... Asset lifecycle management"
+
+**Justification:**
+The discovery sessions identified that KBM currently pays for Bloomberg (third-party service) for tax depreciation tracking. NetSuite offers a Fixed Asset module (~$4,000 cost) that Marcus believes "is gonna handle what you need." However, critical requirements haven't been defined:
+- Bloomberg functionality actually being used
+- NetSuite FA module capabilities vs. Bloomberg
+- Cost-benefit analysis (Bloomberg annual cost vs. NetSuite FA cost)
+- Migration complexity for existing assets
+- Depreciation method requirements
+
+This session is required to:
+1. Document current Bloomberg features being used
+2. Evaluate NetSuite FA module capabilities
+3. Conduct cost-benefit analysis
+4. Determine migration approach if switching
+5. Make platform selection decision
+6. Plan implementation timeline
+
+---
+
+### SESSION 8: Vendor Credit Limit Tracking & Alerts
+
+**Transcript Evidence:**
+- **Master Transcript, Line 700-703:** "Vendor Management - Credit Limits: Track KBM credit limits with vendors... Hit limits unexpectedly: Mad scramble at that nth hour... Need warnings/alerts"
+- **Master Transcript, Line 1194-1197:** "Pain Points: [No automated credit limit tracking]... Vendor credit limit issues... How often do you hit vendor credit limits unexpectedly?"
+- **Financial_Management_Follow-Up_Discovery_Session.md, Line 596:** "REQ-034: Custom alert/warning required (ACCOMMODATE approach)"
+
+**Justification:**
+The discovery sessions identified a specific pain point: KBM hits vendor credit limits unexpectedly, causing "mad scramble at that nth hour." This is a documented requirement (REQ-034) that needs custom development to accommodate. However, critical details are missing:
+- Which vendors have frequently-reached limits
+- Impact of hitting limits
+- Warning threshold preference (90%?)
+- Alert mechanism (email, dashboard, PO blocking?)
+- Credit utilization calculation approach
+
+This session is required to:
+1. Quantify frequency and impact of credit limit issues
+2. Define warning threshold(s)
+3. Identify alert recipients
+4. Specify alert mechanism (email vs. dashboard vs. hard stop)
+5. Document custom development requirements
+6. Plan process for handling warnings
+
+---
+
+## SUMMARY: Why These Sessions Are Required
+
+These follow-up sessions address critical gaps between what was discovered and what's needed for successful configuration:
+
+| Gap | Root Cause | Follow-Up Session |
+|-----|-----------|-------------------|
+| Simplistic revenue recognition not documented | White paper reviewed but not discussed | SESSION 1 |
+| 40+ page COA identified but not analyzed | No COA export/analysis done yet | SESSION 2 |
+| 15% labor markup decision pending | Matt/Mark need final input | SESSION 3 |
+| 10-day close process not optimized | Excel-based, needs system design | SESSION 4 |
+| Payment approval workflow unclear | Lorraine's role not fully specified | SESSION 5 |
+| Expense platform not selected | Expensify vs. RAMP comparison needed | SESSION 6 |
+| Fixed Asset module not evaluated | Bloomberg capabilities vs. NetSuite unclear | SESSION 7 |
+| Vendor credit limit pain point needs solution | Custom development scope not defined | SESSION 8 |
+
+---
+
 ## PART 2: AREAS REQUIRING CLARIFICATION & DEEPER EXPLORATION
 
 ### SESSION 1: Revenue Recognition Rules & Project Accounting (90 minutes)
