@@ -112,13 +112,13 @@ For each process area (Marketing, CRM, Pre-Quote, Order Management, Operations, 
 - **Example:** "Event attendees will check in via QR code, automatically creating leads with campaign attribution and triggering follow-up sequences"
 
 #### 5. Solution Validation
-- **Format:** Confirmation table showing alignment between requirements and solution
-- **Source:** Use REQ-### items from requirements map with questionnaire evidence
-- **Structure:** 
+|- **Format:** Confirmation table showing alignment between requirements and solution
+|- **Source:** Use REQ-### items from requirements map with questionnaire evidence
+|- **Structure:** 
 ```
-| REQ-### | Requirement | Orion/NetSuite Capability | Approach | Business Impact | Validation Status |
-|---------|-------------|---------------------------|----------|-----------------|-------------------|
-| [Requirement] | [Solution feature] | [Business benefit] | ✓ Validated |
+|| REQ-### | Requirement | Orion/NetSuite Capability | Approach |
+||---------|-------------|---------------------------|----------|
+|| [Requirement] | [Solution feature] | [Approach type] |
 ```
 
 #### 6. Implementation Approach
