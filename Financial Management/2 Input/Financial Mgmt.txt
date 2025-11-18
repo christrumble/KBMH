@@ -1,0 +1,190 @@
+KBM DISCOVERY SESSION TRANSCRIPTS - FINANCIAL MANAGEMENT
+=========================================================
+
+SESSION: NetSuite Workflow & Transaction Management
+DATE: July 30, 2025
+=========================================================
+
+TAX MANAGEMENT
+--------------
+SuiteTax Implementation:
+- 48 states registered for nexus
+- Automatic calculation and reporting
+- Tax exemption certificate management
+- Effective date tracking
+- Dashboard for expiring certificates
+
+Special Tax Scenarios:
+- Miller Knoll direct bill: tax to warehouse vs final destination
+- Government orders: tax override capability
+- Manual tax override when needed
+- Warehouse tax percentage always higher
+
+Direct Bill Business:
+- ~$1M annually (1% of $100M revenue)
+- Gross up for commission
+- Full sales amount to Miller Knoll
+- Commission kickback from Miller Knoll
+
+CUSTOMER MANAGEMENT
+------------------
+Finance Charges:
+- Global on/off switch
+- Deterrent/threat mechanism
+- Never actually implemented (13 years)
+- Shows on statements and invoices
+- Automatic calculation
+
+Storage Fees:
+- Vary by warehouse (30-90 days)
+- Bill back to client
+- Situational handling
+- Client accommodation vs cost absorption
+- Construction delay considerations
+
+Commission Structure:
+- Commissionable GP concept
+- Individual line commission marking
+- Header-level commission assignment
+- Split commission capability
+- Project GP vs commissionable GP
+
+ORDER TYPES & BILLING
+---------------------
+Current Order Types:
+- Direct bill
+- Intermarket (inbound ~40/year, outbound hundreds)
+- Intuit work from home
+- Government orders (20% of business)
+- E-commerce (Shopify legacy)
+
+Special Considerations:
+- Intermarket: dealer setup as vendor/customer
+- Service time integration
+- Automated line imports by order type
+- Default order functionality
+
+REVENUE RECOGNITION
+------------------
+Current Process:
+- Sales order = revenue recognition
+- Static process after quote creation
+- No changes after sales order
+- Google Docs for live budget tracking
+
+NetSuite Approach:
+- Separate transaction types
+- Opportunity → Quote → Sales Order
+- Better audit trail
+- Compare quote to sales order
+- Project-level tracking
+
+CUSTOMER PO TRACKING
+-------------------
+Current Challenge:
+- Blanket POs frequently used
+- No tracking of PO exhaustion
+- Risk of exceeding PO limits
+- Bank requests for PO reporting
+
+Proposed Solution:
+- Custom transaction for PO tracking
+- Document attachment capability
+- Project-level aggregation
+- Change order handling
+- KPI dashboard integration
+
+PROJECT GP TRACKING
+------------------
+Current Structure:
+- Project GP vs commissionable GP
+- Line-level commission marking
+- Storage fee impact
+- 15% labor markup formula
+- External labor cost tracking
+
+Time Tracking Impact:
+- Internal rates affect project GP
+- External contractor rates
+- Manual time entry reconciliation
+- GP impact on projects
+
+FINANCIAL REPORTING
+------------------
+Current Tools:
+- Core financial reports
+- Manual Excel reports
+- Google Sheets
+- Power BI integration
+
+NetSuite Capabilities:
+- Real-time reporting
+- Period-over-period analysis
+- Custom dashboards
+- Automated report generation
+- Export capabilities
+
+CHART OF ACCOUNTS
+-----------------
+Current State:
+- 40+ pages of accounts
+- Target: reduce to few hundred
+- KB workspace vs Hogan workspace
+- Historical data back to 2017
+
+Migration Strategy:
+- End-of-month trial balances
+- 2-5 years typical import
+- Up to 10 years possible
+- CSV import process
+- Period-over-period reporting
+
+DATA ARCHIVING
+--------------
+Financial Data Retention:
+- 2017 forward in NetSuite
+- Older data exported and archived
+- Separate archive system
+- Lorraine's decision on retention
+- Fee side and view side data usage
+
+Core Data Export:
+- SQL backend access
+- Data migration tool available
+- Strategy to avoid Core involvement
+- Backdoor access confirmed
+
+INTEGRATION REQUIREMENTS
+------------------------
+Banking Integration:
+- West Coast Community Bank
+- Bank Feeds suite app
+- Advanced Electronic Bill Payments
+- Automated reconciliation
+
+Payroll System:
+- Paylocity (may change)
+- Separate from NetSuite
+- CSV import of journal entries
+- HR platform evaluation
+
+Expense Management:
+- Expensify (may change)
+- Manual reconciliation process
+- Excel download/upload
+- Goal: automated integration
+
+COMPLIANCE & AUDITING
+---------------------
+Audit Requirements:
+- Direct bill gross-up approval
+- Commission structure documentation
+- Tax compliance reporting
+- Financial consolidation
+
+Internal Controls:
+- Approval workflows
+- Document version control
+- Change management
+- User permissions
+
